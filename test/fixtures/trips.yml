@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  hash: MyString
+  date: 2015-04-14
+  time: 2015-04-14 14:55:49
+  destination: MyString
+  comments: MyText
+
+two:
+  name: MyString
+  hash: MyString
+  date: 2015-04-14
+  time: 2015-04-14 14:55:49
+  destination: MyString
+  comments: MyText
