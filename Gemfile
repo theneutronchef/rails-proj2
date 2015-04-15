@@ -39,3 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'hashids'
+gem 'simple_form'
+gem 'safe_attributes'
+gem 'annotate'

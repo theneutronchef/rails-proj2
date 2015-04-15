@@ -1,0 +1,10 @@
+<h1> GrouPool </h1>
+
+<p> <%= link_to "Create Trip", new_trip_path() %> </p>
+
+<p>    
+<%= form_tag(action: :search) do %>
+  <%= text_field_tag(:SearchInput) %>
+  <%= button_tag(:submit) %>
+<% end %>
+</p>
