@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   root 'home#index'
   post 'search' => 'home#search'
+  get 'trips/error' => 'trips#error'
   resources :users
   resources :cars
   resources :trips

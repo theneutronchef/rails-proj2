@@ -2,6 +2,9 @@ class TripsController < ApplicationController
 
 	def index
 		@trip = Trip.find_by(hashid: params[:hashid])
+		if not @trip
+			redirect_to trips_error_path()
+		end
 	end
 
 	def new
@@ -10,7 +13,6 @@ class TripsController < ApplicationController
 
 	def create
 		@trip = Trip.new(trip_params)
-
 		if @trip.save
 			hashids = Hashids.new("since security is not very important, i'll just use this as my salt", 8)
 			@trip.hashid = hashids.encode(@trip.id)
@@ -20,6 +22,12 @@ class TripsController < ApplicationController
 			render "new"
 		end
 	end
+
+	def error
+
+	end
+
+
 
 	private
 
