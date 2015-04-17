@@ -1,7 +1,8 @@
 class TripsController < ApplicationController
 
-  def index
-    @trip = Trip.find_by(hashid: params[:hashid])
+  def show
+    puts params
+    @trip = Trip.find_by(hashid: params[:id])
     if not @trip
       redirect_to trips_error_path()
     end
