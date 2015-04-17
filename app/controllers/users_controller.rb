@@ -1,25 +1,38 @@
-class UsersController < ApplicationController
+class TripsController < ApplicationController
 
-	def new
-		@user = User.new
-	end
-
-	def create
-		@user = User.new(user_params)
-		if @user.save
-			# redirect_to trips_path(hashid: @trip.hashid)
-		else
-			render "new"
-		end
-	end
-
-
-
-	private
-
-  def user_params
-    params.require(:user).permit(:first_name, :last_name, :email_address, :is_driver)
+  def index
+    @trip = Trip.find_by(hashid: params[:hashid])
+    if not @trip
+      redirect_to trips_error_path()
+    end
   end
 
+  def new
+    @trip = Trip.new
+  end
+
+  def create
+    @trip = Trip.new(trip_params)
+    if @trip.save
+      hashids = Hashids.new("since security is not very important, i'll just use this as my salt", 8)
+      @trip.hashid = hashids.encode(@trip.id)
+      @trip.save
+      redirect_to trips_path(hashid: @trip.hashid)
+    else
+      render "new"
+    end
+  end
+
+  def error
+
+  end
+
+
+
+  private
+
+  def trip_params
+    params.require(:trip).permit(:name, :date, :time, :destination)
+  end
 
 end
