@@ -2,6 +2,7 @@ class CarsController < ApplicationController
 
   def new
     @car = Car.new
+    @trip = Trip.find(params[:trip_id])
   end
 
   def create
