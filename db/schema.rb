@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150414231204) do
+ActiveRecord::Schema.define(version: 20150417235443) do
 
   create_table "cars", force: true do |t|
     t.integer  "driver"
@@ -35,13 +35,13 @@ ActiveRecord::Schema.define(version: 20150414231204) do
 
   create_table "trips", force: true do |t|
     t.string   "name"
-    t.string   "hashid"
     t.date     "date"
     t.time     "time"
     t.string   "destination"
     t.text     "comments"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "hashid"
   end
 
   create_table "users", force: true do |t|

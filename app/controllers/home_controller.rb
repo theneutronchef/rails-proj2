@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   end
 
   def search
-    redirect_to trips_path(hashid: params["SearchInput"]) 
+    redirect_to trip_path(id: params["SearchInput"]) 
   end
 
 end

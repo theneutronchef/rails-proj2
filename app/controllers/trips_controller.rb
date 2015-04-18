@@ -1,7 +1,6 @@
 class TripsController < ApplicationController
 
   def show
-    puts params
     @trip = Trip.find_by(hashid: params[:id])
     if not @trip
       redirect_to trips_error_path()
@@ -18,7 +17,7 @@ class TripsController < ApplicationController
       hashids = Hashids.new("since security is not very important, i'll just use this as my salt", 8)
       @trip.hashid = hashids.encode(@trip.id)
       @trip.save
-      redirect_to trips_path(hashid: @trip.hashid)
+      redirect_to trip_path(id: @trip.hashid)
     else
       render "new"
     end
@@ -27,8 +26,6 @@ class TripsController < ApplicationController
   def error
 
   end
-
-
 
   private
 

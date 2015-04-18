@@ -4,5 +4,4 @@ class Trip < ActiveRecord::Base
   validates :date, presence: true
   validates :time, presence: true
   validates :destination, presence: true
-  validates :hashid, presence: true
 end
