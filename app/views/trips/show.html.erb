@@ -13,19 +13,48 @@
 
 
 <h2>Cars</h2>
-<table>
-  <tr>
-    <td><p><u>Driver</u></p></td>
-    <td><p><u>Departure Point</u></p></td>
-    <td><p><u>Remaining Seats</u></p></td>
-    <td><p><u>Details</u></p></td>
-  </tr>
+
+  <p><%= link_to "Add Car", new_trip_car_path(@trip.id) %><p>
+
   <% @cars.each do |car| %>
-  <tr>
-    <td><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %></td>
-    <td><%= car.origin %></td>
-    <td><%= car.number_of_seats.to_s %></td>
-    <td><%= link_to "Details", trip_car_path(@trip.hashid, car.id) %></td>
-  </tr>
+  <div class="car">
+
+    <table>
+      <tr>
+	<td><b>Driver: </b></td>
+	<td><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %></td>
+      </tr>
+      <tr>
+	<td><b>Departs From: </b></td>
+	<td><%= car.origin %></td>
+      </tr>
+      <% if car.depart_date and car.depart_time %>
+      <tr>
+	<td><b>Departs At: </b></td>
+	<td>
+	  <% if car.depart_date != @trip.date %>
+	  <%= car.depart_date.to_s(:long_with_day) %> 
+	  <% end %>
+	  <%= car.depart_time.to_s(:time_with_pm) %>
+	</td>
+      </tr>
+      <% end %>
+      <tr>
+	<td><b>Remaining Seats: </b></td>
+	<td><%= (car.number_of_seats - car.passengers.count).to_s %></td>
+      </tr>
+      <tr>
+	<td><%= link_to "Details", trip_car_path(@trip.hashid, car.id) %></td>
+	<td>
+	  <% if car.passengers.count < car.number_of_seats %>
+	  Choose Car
+	  <% else %>
+	  <i>Car Full</i>
+	  <% end %>
+	</td>
+      </tr>
+    </table>
+
+  </div>
   <% end %>
-</table>
+
