@@ -4,8 +4,10 @@ Rails.application.routes.draw do
   post 'search' => 'home#search'
   get 'trips/error' => 'trips#error'
   resources :users
-  resources :cars
-  resources :trips
+  # resources :cars
+  resources :trips do 
+    resources :cars
+  end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

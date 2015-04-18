@@ -1,7 +1,27 @@
-<h1> Trip Dashboard </h1>
+<h1>Trip Dashboard</h1>
 
 <p> <%= link_to "Home", root_path() %> </p>
+
 <%= @params %>
-Name: <%= @trip.name %>
-<br>
-Destination: <%= @trip.destination %>
+
+<h2>Trip Details</h2> 
+<p><b>Name:</b> <%= @trip.name %></p>
+<p><b>Destination:</b> <%= @trip.destination %>
+
+<h2>Cars</h2>
+<table>
+  <tr>
+    <td><p><u>Driver</u></p></td>
+    <td><p><u>Departure Point</u></p></td>
+    <td><p><u>Remaining Seats</u></p></td>
+    <td><p><u>Details</u></p></td>
+  </tr>
+  <% @cars.each do |car| %>
+  <tr>
+    <td><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %></td>
+    <td><%= car.origin %></td>
+    <td><%= car.number_of_seats.to_s %></td>
+    <td><%= link_to "Details", trip_car_path(@trip.hashid, car.id) %></td>
+  </tr>
+  <% end %>
+</table>
