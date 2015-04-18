@@ -15,8 +15,10 @@
 
 class Trip < ActiveRecord::Base
   has_many :relations
+  has_many :cars, through: :relations, source: :car
   validates :name, presence: true
   validates :date, presence: true
   validates :time, presence: true
   validates :destination, presence: true
+
 end
