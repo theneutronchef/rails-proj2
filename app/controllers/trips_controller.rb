@@ -2,11 +2,13 @@ class TripsController < ApplicationController
 
   def show
     @trip = Trip.find_by(hashid: params[:id])
+
     if not @trip
       redirect_to trips_error_path()
     end
 
-    @cars = @trip.cars.uniq
+    @cars = @cars.uniq
+    end
   end
 
   def new
@@ -18,9 +20,9 @@ class TripsController < ApplicationController
   end
 
   def update
-    @trip = Trip.find_by(hashid: params[:id])
-    if @trip.update(trip_params)
-      redirect_to @trip
+    @trip = Trip.find(params[:id])
+    if @trip.update trip_params
+      redirect_to trip_path(id: @trip.hashid)
     else
       render "edit"
     end
