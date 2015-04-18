@@ -2,13 +2,29 @@ class TripsController < ApplicationController
 
   def show
     @trip = Trip.find_by(hashid: params[:id])
+
     if not @trip
       redirect_to trips_error_path()
     end
+
+    @cars = @trip.cars.uniq
   end
 
   def new
     @trip = Trip.new
+  end
+
+  def edit
+    @trip = Trip.find_by(hashid: params[:id])
+  end
+
+  def update
+    @trip = Trip.find(params[:id])
+    if @trip.update trip_params
+      redirect_to trip_path(id: @trip.hashid)
+    else
+      render "edit"
+    end
   end
 
   def create
@@ -30,7 +46,7 @@ class TripsController < ApplicationController
   private
 
   def trip_params
-    params.require(:trip).permit(:name, :date, :time, :destination)
+    params.require(:trip).permit(:name, :date, :time, :destination, :comments)
   end
 
 end

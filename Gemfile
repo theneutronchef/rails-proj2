@@ -43,3 +43,8 @@ gem 'simple_form'
 gem 'safe_attributes'
 gem 'annotate'
 gem 'devise'
+gem 'awesome_print'
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
