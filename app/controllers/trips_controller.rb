@@ -13,6 +13,19 @@ class TripsController < ApplicationController
     @trip = Trip.new
   end
 
+  def edit
+    @trip = Trip.find_by(hashid: params[:id])
+  end
+
+  def update
+    @trip = Trip.find_by(hashid: params[:id])
+    if @trip.update(trip_params)
+      redirect_to @trip
+    else
+      render "edit"
+    end
+  end
+
   def create
     @trip = Trip.new(trip_params)
     if @trip.save

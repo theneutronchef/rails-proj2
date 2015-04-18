@@ -1,12 +1,16 @@
 <h1>Trip Dashboard</h1>
 
-<p> <%= link_to "Home", root_path() %> </p>
-
-<%= @params %>
+<p><%= link_to "Home", root_path() %></p>
 
 <h2>Trip Details</h2> 
-<p><b>Name:</b> <%= @trip.name %></p>
-<p><b>Destination:</b> <%= @trip.destination %>
+<p><b>Name:</b><%= @trip.name %></p>
+<p><b>Destination:</b><%= @trip.destination %></p>
+<p><b>Date: </b><%= @trip.date.to_s %> <%= @trip.time.to_s %></p>
+<% if @trip.comments %>
+<p><b>Event Details: </b><%= @trip.comments %></p>
+<% end %>
+<p><%= link_to "Edit Trip Details", edit_trip_path %></p>
+
 
 <h2>Cars</h2>
 <table>

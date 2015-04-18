@@ -1,0 +1,10 @@
+<h1>Edit Existing Trip</h1>
+<b>Trip ID:</b> <%= @trip.hashid %>
+
+<%= simple_form_for @trip do |t| %>
+  <%= t.input :name %>
+  <%= t.input :date %>
+  <%= t.input :time %>
+  <%= t.input :destination %>
+  <%= t.button :submit %>
+<% end %>
