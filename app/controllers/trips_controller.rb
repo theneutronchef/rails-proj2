@@ -7,8 +7,7 @@ class TripsController < ApplicationController
       redirect_to trips_error_path()
     end
 
-    @cars = @cars.uniq
-    end
+    @cars = @trip.cars.uniq
   end
 
   def new

@@ -3,11 +3,11 @@
 <p><%= link_to "Home", root_path() %></p>
 
 <h2>Trip Details</h2> 
-<p><b>Name:</b><%= @trip.name %></p>
-<p><b>Destination:</b><%= @trip.destination %></p>
-<p><b>Date: </b><%= @trip.date.to_s %> <%= @trip.time.to_s %></p>
+<p><b>Name: </b> <%= @trip.name %></p>
+<p><b>Destination: </b> <%= @trip.destination %></p>
+<p><b>Date: </b> <%= @trip.date.to_s(:long_with_day) %> <%= @trip.time.to_s(:time_with_pm) %></p>
 <% if @trip.comments %>
-<p><b>Event Details: </b><%= @trip.comments %></p>
+<p><b>Event Details: </b> <%= @trip.comments %></p>
 <% end %>
 <p><%= link_to "Edit Trip Details", edit_trip_path %></p>
 
