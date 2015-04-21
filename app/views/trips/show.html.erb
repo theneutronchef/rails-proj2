@@ -28,14 +28,17 @@
 	<td><b>Departs From: </b></td>
 	<td><%= car.origin %></td>
       </tr>
-      <% if car.depart_date and car.depart_time %>
+      <% if car.depart_datetime %>
       <tr>
 	<td><b>Departs At: </b></td>
 	<td>
-	  <% if car.depart_date != @trip.date %>
-	  <%= car.depart_date.to_s(:long_with_day) %> 
+		<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
+			 depart_date = car.depart_datetime.strftime("%d/%m/%Y")
+		   depart_time = car.depart_datetime.strftime("%I:%M%p") %>
+	  <% if depart_date != trip_date %>
+	  <%= depart_date %> 
 	  <% end %>
-	  <%= car.depart_time.to_s(:time_with_pm) %>
+	  <%= depart_time %>
 	</td>
       </tr>
       <% end %>
