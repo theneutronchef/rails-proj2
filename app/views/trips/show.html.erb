@@ -5,7 +5,7 @@
 <h2>Trip Details</h2> 
 <p><b>Name: </b> <%= @trip.name %></p>
 <p><b>Destination: </b> <%= @trip.destination %></p>
-<p><b>Date: </b> <%= @trip.date.to_s(:long_with_day) %> <%= @trip.time.to_s(:time_with_pm) %></p>
+<p><b>Time: <%= @trip.datetime %></p>
 <% if @trip.comments %>
 <p><b>Event Details: </b> <%= @trip.comments %></p>
 <% end %>

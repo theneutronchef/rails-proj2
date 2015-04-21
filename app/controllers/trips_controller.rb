@@ -5,9 +5,10 @@ class TripsController < ApplicationController
 
     if not @trip
       redirect_to trips_error_path()
+    else
+      @cars = @trip.cars.uniq
     end
 
-    @cars = @trip.cars.uniq
   end
 
   def new
@@ -46,7 +47,7 @@ class TripsController < ApplicationController
   private
 
   def trip_params
-    params.require(:trip).permit(:name, :date, :time, :destination, :comments)
+    params.require(:trip).permit(:name, :datetime, :destination, :comments)
   end
 
 end
