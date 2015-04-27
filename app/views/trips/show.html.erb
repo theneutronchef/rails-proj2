@@ -42,9 +42,9 @@
 						</div>
 						<div id="available-seats"><%= avail_seats > 0 ? "Available Seats: " + avail_seats.to_s : "Car Full"%></div>
 						<% if avail_seats > 0 %>
-								<div class="choose-car-button"> <%= link_to "Choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
+								<div class="choose-car-button"> <%= link_to "Choose Car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
 						<%end%>
-						<div class="cancel">cancel</div>
+						<div class="cancel">Cancel</div>
 					</div>
 					<%end%>
 				</div>
