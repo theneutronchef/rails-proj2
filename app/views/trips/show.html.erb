@@ -60,9 +60,9 @@
 					<div class="trip-details-container">
 							<div id="trip-details">trip details:</div>
 							<div id="edit"><%= link_to "edit", edit_trip_path %></div>
-							<div id="destination">>> destination: <%= @trip.destination %></div>
-							<div id="date-time">>> date: <%=@trip.datetime.strftime("%m/%d/%Y") %></div>
-							<div id="trip-hash">>>Remember your trip code: <%= @trip.hashid %> </div>
+							<div id="destination">>> <b>destination:</b> <%= @trip.destination %></div>
+							<div id="date-time">>> <b>date:</b> <%=@trip.datetime.strftime("%m/%d/%Y") %></div>
+							<div id="trip-hash">>> <b>trip code:</b> <%= @trip.hashid %> </div>
 					</div>
 				</div>
 				<div class="box">
