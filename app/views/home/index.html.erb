@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <%=stylesheet_link_tag "index.css.scss" %>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!--	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> -->
 		<script src="assets/js/jquery-1.9.1.js"></script>
         <script src = "assets/js/index.js"></script>	
 	</head>
@@ -12,10 +11,6 @@
 		</div>
 		<div id="topbar-home">
 			<div id="groupool-home">groupool</div>
-			<div id="about-home">Contact Us</div>
-			<div id="help-home">Help</div>			
-			<div id="contact-us-home">About</div>
-			<div class="clear"></div>
 		</div>
 		<div id="welcome-text">
 			Welcome
@@ -24,14 +19,14 @@
 			Plan carpools for your trips!
 		</div>
 		<div id="trip-code-container">
-			<input type="text" class="trip-code" placeholder = "Enter your trip code"/>
+<!-- 			<input type="text" class="trip-code" placeholder = "Enter your trip code"/> -->
 			<%= form_tag(action: :search) do %>
-  			<%= text_field_tag(:SearchInput) %>
+  			<%= text_field_tag(:SearchInput, nil, placeholder:"Enter your trip code") %>
   			<%= button_tag(:submit) %>
 			<% end %>
 		</div>
 		<div id="or">or</div>
-		<div id="make-a-trip" class="original"><%= link_to "Make a Trip", new_trip_path() %></div>
+		<div id="make-a-trip" class="original"><%= link_to "Make a Trip", new_trip_path(), :class => "new-trip"%></div>
 	</body>
 </html>
 

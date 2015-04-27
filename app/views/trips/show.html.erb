@@ -5,8 +5,6 @@
 
 <!DOCTYPE html>
 	<head>
-        <%=stylesheet_link_tag "new_trip.css.scss" %>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <!--         // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  -->
 <!--         // <script src="assets/js/jquery-1.9.1.js"></script>
         // <script src = "assets/js/dashboard.js"></script> -->
@@ -21,8 +19,8 @@
 					<% @cars.each do |car| %>
 					<div class="modal-content" id="modal-content-<%=car.id%>">
 						<div id="whose-car"><%= car.drivers.first.first_name %>'s Car</div>
-						<div id="meeting-place">meeting place:<%= car.origin %></div>
-						<div id="departure-time">departure time: 
+						<div id="meeting-place">Meeting place: <%= car.origin %></div>
+						<div id="departure-time">Departure time: 
 							<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
 								 depart_date = car.depart_datetime.strftime("%d/%m/%Y")
 							   depart_time = car.depart_datetime.strftime("%I:%M%p") %>
@@ -31,7 +29,7 @@
 						  <% end %>
 						  <%= depart_time %>
 						</div>
-						<div id="people-in-car">passengers:
+						<div id="people-in-car">Passengers:
 							<ul>
 								<li>Kelly</li> <!-- TODO: change this -->
 								<li>Japheth</li>
@@ -48,7 +46,7 @@
 				</div>
 		</div>
 		<div id="topbar">
-			<div id="groupool"><%= link_to "groupool", root_path() %></div>
+			<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
 		</div>
 		<div id="body-container">
 			<div id="title-container">
@@ -61,13 +59,14 @@
 							<div id="edit"><%= link_to "edit", edit_trip_path %></div>
 							<div id="destination">>> destination: <%= @trip.destination %></div>
 							<div id="date-time">>> date: <%=@trip.datetime.strftime("%m/%d/%Y") %></div>
+							<div id="trip-hash">>>Remember your trip code: <%= @trip.hashid %> </div>
 					</div>
 				</div>
 				<div class="box">
 					<div class="trip-comments-container">
 						<div id="comments">creator's comments: 
 							<% if @trip.comments %>
-								<%= @trip.comments %>
+								<div id="tripcomments">>> <%= @trip.comments %></div>
 							<%end%>
 								</div>
 						<div class="clear"></div>

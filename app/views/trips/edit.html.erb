@@ -1,10 +1,56 @@
-<h1>Edit Existing Trip</h1>
-<b>Trip ID:</b> <%= @trip.hashid %>
+<!DOCTYPE html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        </script> 
+        <%=stylesheet_link_tag "new_trip.css.scss" %>
+	</head>
+	<body>
+			<div id="topbar">
+				<div id="groupool">groupool</div>
+			</div>
+			<div id ="big-container">
+				<div id="title-container">
+					<div id="title">Edit Existing Trip</div>
+					<div id="details">List out event details to plan your carpool.</div>
+				</div>
+				<div id="form-container">
+					<%= simple_form_for @trip do |t| %>
+					<div id="input-container">
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								<%= t.input :name, label: "name of trip:" %>
+<!-- 								<input type = "text" class="inputs" placeholder = "Enter the name of your trip"> -->
+								<div class="clear"></div>
+						</div>
+						<div class="input-dest-container">
+							<div class="input-name">
+<!-- 								<img id="car" src = "assets/img/car_icon.png"> -->
+								<%=image_tag("car_icon.png", id: "car")%>
+					  			<%= t.input :destination, label: "destination:"%>
+<!-- 								<input type = "text" class="input-destination" placeholder = "Enter your destination" style="assets/img/car_icon.png"> -->
+							</div>
+								<div class="clear"></div>
+						</div>
+						<div class="input-time-container">
+							<div class="input-time"></div>
+								<%=image_tag("clock.png", id: "clock") %>
+								<%= t.input :datetime, label: "date/time:" %>
+<!-- 								<input type= "text" class = "input-time" placeholder = "hh:mm">
+								<input type = "text" class="input-month" placeholder = "mm">
+								<input type = "text" class="input-day" placeholder = "dd">
+								<input type = "text" class="input-year" placeholder = "yyyy"> -->
+								<div class="clear"></div>
+						</div>
+						<div class="input-comments-container">
+							<div class="input-comments"></div>
+<!-- 							<input type = "text" class="bigger-input" placeholder = "Enter your comments"> -->
+							 <%= t.input :comments, label: "comments:"%>
+						</div>
+					</div>
+					<div id="button"><%= t.submit "Edit Your Trip!", :class => "button"%></div>
+				</div>
+				<% end %>
+			</div>
+	</body>
 
-<%= simple_form_for @trip do |t| %>
-  <%= t.input :name %>
-  <%= t.input :datetime %>
-  <%= t.input :destination %>
-  <%= t.input :comments %>
-  <%= t.button :submit %>
-<% end %>
+</html>

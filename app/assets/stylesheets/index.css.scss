@@ -1,119 +1,180 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* line 4, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 2, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 #topbar-home {
-    font-family: 'Open Sans',sans-serif;
-    width: 100%;
-    height: 50px;
-    color: white;
-    position: absolute;
-    top: 10px;
+  font-family: 'Open Sans',sans-serif;
+  width: 100%;
+  height: 50px;
+  color: white;
+  position: absolute;
+  top: 10px;
 }
 
+/* line 13, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 12, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 #groupool-home {
-    float: left;
-    font-size: 24px;
-    font-weight: 800;
-    padding-bottom: 8px;
-    padding-top: 4px;
-    padding-left: 14px;
+  float: left;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-left: 14px;
 }
 
+/* line 22, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 22, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 #about-home {
-    float: right;
-    padding-right: 12px;
-    padding-top: 8px;
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
 }
 
+/* line 28, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 29, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 #help-home {
-    float: right;
-    padding-right: 12px;
-    padding-top: 8px;
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
 }
 
+/* line 34, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 36, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 .clear {
-    clear: both;
+  clear: both;
 }
 
+/* line 38, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 41, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 #contact-us-home {
-    float: right;
-    padding-right: 12px;
-    padding-top: 8px;
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
 }
 
+/* line 44, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 48, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
+/* line 48, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 53, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 div#background-container {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    height: 75%;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 75%;
 }
 
+/* line 55, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 61, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 div#welcome-text {
-    position: absolute;
-    color: white;
-    top: 20%;
-    left: 40%;
-    font-family: Open Sans, sans-serif;
-    font-size: 60px;
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 40%;
+  font-family: Open Sans, sans-serif;
+  font-size: 60px;
 }
 
+/* line 64, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 71, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 div#plan-trips-text {
-    color: white;
-    font-family: Open Sans, sans-serif;
-    top: 35%;
-    left: 42%;
-    position: absolute;
+  color: white;
+  font-family: Open Sans, sans-serif;
+  top: 35%;
+  left: 42%;
+  position: absolute;
+  text-shadow: 2px 2px black;
 }
 
+/* line 72, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 81, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 input.trip-code {
-    position: absolute;
-    top: 43%;
-    left: 33%;
-    height: 35px;
-    width: 400px;
-    text-align: center;
-    font-size: 14px;
+  position: absolute;
+  top: 43%;
+  left: 33%;
+  height: 35px;
+  width: 400px;
+  text-align: center;
+  font-size: 14px;
 }
 
+/* line 82, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 92, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 div#or {
-    color: white;
-    position: absolute;
-    left: 48%;
-    font-family: Open Sans, sans-serif;
-    top: 55%;
-    font-size: 24px;
+  color: white;
+  position: absolute;
+  left: 48%;
+  font-family: Open Sans, sans-serif;
+  top: 55%;
+  font-size: 24px;
 }
 
+/* line 91, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 102, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 div#make-a-trip {
-    top: 63%;
-    left: 43%;
-    position: absolute;
-    width: 150px;
-    height: 40px;
-    font-family: Open Sans, sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-
+  top: 63%;
+  left: 43%;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  font-family: Open Sans, sans-serif;
+  padding-top: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
+/* line 105, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 116, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 .original {
-    color: white;
-    background-color: #FF9885;
-    border-color: white;
+  color: white;
+  background-color: #FF9885;
+  border-color: white;
 }
 
+/* line 111, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 123, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 .make-a-trip-adders {
-    background-color: #FFCA85;
-    color: white;
-    border: white;
+  background-color: #FFCA85;
+  color: white;
+  border: white;
 }
 
+/* line 117, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 130, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
 body {
-	margin-top: 0px;
+  margin-top: 0px;
+}
+
+/* line 121, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 135, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+input#SearchInput {
+  position: absolute;
+  top: 43%;
+  left: 34%;
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  font-size: 14px;
+  border: none;
+}
+
+/* line 132, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+/* line 147, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/index.css.scss */
+button {
+  top: 43%;
+  left: 58%;
+  position: absolute;
+  width: 80px;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  height: 35px;
+  background-color: white;
+  border: none;
+}
+
+a.new-trip {
+    color: white;
+    text-decoration: none;
 }
