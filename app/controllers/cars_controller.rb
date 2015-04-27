@@ -25,7 +25,8 @@ class CarsController < ApplicationController
       @car = Car.new(car_params) 
       @relation = Relation.new
       if @car.save
-        @driver = User.find_by(first_name: p[:driver_first_name], last_name: p[:driver_last_name])
+        @driver = User.find_by(first_name: p[:driver_first_name], 
+                               last_name: p[:driver_last_name])
         @relation.trip_id = @trip.id
         @relation.car_id = @car.id
         @relation.user_id = @driver.id
@@ -61,8 +62,14 @@ class CarsController < ApplicationController
         relation.delete
       end
       @car.delete
+      redirect_to trip_path(id: @trip.hashid)
+    else
+      redirect_to car_delete_path(:trip_id => flash[:trip_id], 
+                                  :car_id => flash[:car_id], 
+                                  :warning => false, 
+                                  :first_name => @driver.first_name, 
+                                  :last_name => @driver.last_name)
     end
-    redirect_to trip_path(id: @trip.hashid)
   end
 
 

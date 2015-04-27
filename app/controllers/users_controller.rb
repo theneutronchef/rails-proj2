@@ -44,10 +44,18 @@ class UsersController < ApplicationController
     @user = User.find(flash[:user_id])
     if params[:email] == @user.email
       @relation.delete
+      @trip = Trip.find(flash[:trip_id])
+      redirect_to trip_path(id: @trip.hashid)
+    else
+      redirect_to user_delete_path(:car_id => flash[:car_id],
+                                   :user_id => flash[:user_id],
+                                   :trip_id => flash[:trip_id],
+                                   :warning => true, 
+                                   :first_name => @user.first_name,
+                                   :last_name => @user.last_name)
     end
 
-    @trip = Trip.find(flash[:trip_id])
-    redirect_to trip_path(id: @trip.hashid)
+    
   end
 
   private

@@ -12,6 +12,9 @@
 				</div>
 				<div id="form-container">
 					<div id="input-container">
+						<% if params[:warning] %>
+							<div id="warning"> Email is either wrong or invalid. Are you sure you are <%= params[:first_name] %> <%= params[:last_name]%>?</div>
+						<% end  %>
 						<%= form_tag(action: :delete) do %>
 						<div class="input-name-container">
 							<div class="input-name"></div>
