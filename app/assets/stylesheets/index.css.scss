@@ -1,7 +1,7 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#topbar {
+#topbar-home {
     font-family: 'Open Sans',sans-serif;
     width: 100%;
     height: 50px;
@@ -10,7 +10,7 @@
     top: 10px;
 }
 
-#groupool {
+#groupool-home {
     float: left;
     font-size: 24px;
     font-weight: 800;
@@ -19,13 +19,13 @@
     padding-left: 14px;
 }
 
-#about {
+#about-home {
     float: right;
     padding-right: 12px;
     padding-top: 8px;
 }
 
-#help {
+#help-home {
     float: right;
     padding-right: 12px;
     padding-top: 8px;
@@ -35,7 +35,7 @@
     clear: both;
 }
 
-#contact-us {
+#contact-us-home {
     float: right;
     padding-right: 12px;
     padding-top: 8px;
