@@ -18,7 +18,7 @@
 				<div class="modal-box">
 					<% @cars.each do |car| %>
 					<div class="modal-content" id="modal-content-<%=car.id%>">
-						<div id="whose-car"><%= car.drivers.first.first_name %>'s Car</div>
+						<div id="whose-car"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name.possessive %> Car</div>
 						<div id="meeting-place">Meeting place: <%= car.origin %></div>
 						<div id="departure-time">Departure time: 
 							<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
@@ -97,7 +97,7 @@
 				<div id="carousel">
 					 <% @cars.each do |car| %>
 					<div class="carousel-item" data-id = "<%=car.id%>">
-						<div class="name"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %>'s car</div>
+						<div class="name"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name.possessive %> car</div>
 						<div class="car-icon-container">
 	<!-- 						<img class="car-icon" src="assets/img/dashcar.png"/> -->
 							<%=image_tag("dashcar.png", class: "car-icon")%>
