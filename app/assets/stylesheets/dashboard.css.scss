@@ -514,6 +514,13 @@ div#add-a-car {
   float: left;
 }
 
+div#add-a-car-centralized {
+  width: 100%;
+  height: 50px;
+  margin: 60px auto;
+  text-align: center;
+}
+
 /* line 202, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 229, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 259, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -1139,4 +1146,13 @@ a.choose-car-link {
 .deleting-car {
   color: white;
   text-decoration: none;
+}
+
+div#no-car-text {
+  font-size: 30px;
+  font-family: Open Sans, sans-serif;
+  width: 600px;
+  position: relative;
+  margin: 50px auto;
+  text-align: center;
 }

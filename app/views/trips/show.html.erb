@@ -85,6 +85,8 @@
 					</div>
 				</div>
 			</div>
+	  	<% if @cars.length > 0 %>
+
 			<div id="button-container">
 			  <div id="button-container-inner">
 			<div id="arrow-container">
@@ -94,9 +96,14 @@
 			</div>
 			<div id="middletext-container">
 				<div id="or-container">or</div>
-				<div id="click-container">Click a car for more information.</div>
+				<!-- <div id="click-container">Click a car for more information.</div> -->
 			</div>
  			<div id="add-a-car">
+ 			<% else %>
+ 			<div id="add-a-car-centralized">
+			<% end %>
+
+
 				<div id="add-car-text">
 					<!-- <%= button_to "add car", new_trip_car_path(@trip.id)%> -->
 					<%= link_to "add car", new_trip_car_path(@trip.id), :class => "add-car" %>
@@ -106,6 +113,8 @@
                         </div>
 			<div class="clear"></div>
 		</div>
+  	<% if @cars.length > 0 %>
+
 		<div id="carousel-container">
 			<div id="carousel-wrapper">
 				<div id="carousel">
@@ -131,6 +140,7 @@
 					<div class="clear"></div>													
 				</div>
 			</div>
+
 			<div id="prev">
 <!-- 			    <img class="img-scaled" src="assets/img/arrowleft.png" /> -->
 					<%=image_tag("arrowleft.png", class: "img-scaled")%>
@@ -138,7 +148,14 @@
 			<div id="next">
 <!-- 			    <img class="img-scaled-next" src="assets/img/arrowleft.png" /> -->
 					<%=image_tag("arrowleft.png", class: "img-scaled-next")%>
-			</div>				
+			</div>
+			<% else %>	
+			<br>
+			<div id="no-car-text">
+				no cars have been added yet.
+			</div> 
+  		<% end %>
+			
 		</div>
 	</body>
 

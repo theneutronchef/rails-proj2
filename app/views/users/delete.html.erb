@@ -1,5 +1,26 @@
-Remove yourself from the car?
-<%= form_tag(action: :delete) do %>
-  Email: <%= text_field_tag(:email) %> 
-  <%= button_tag(:submit) %>
-<% end %>
+<!DOCTYPE html>
+	<head>
+	</head>
+	<body>
+			<div id="topbar">
+				<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
+			</div>
+			<div id ="big-container">
+				<div id="title-container">
+					<div id="title">LEAVE CAR</div>
+					<div id="details">You can only remove yourself from the car</div>
+				</div>
+				<div id="form-container">
+					<div id="input-container">
+						<%= form_tag(action: :delete) do %>
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								Email: <%= text_field_tag(:email) %> 
+  							<%= button_tag(:submit) %>
+								<div class="clear"></div>
+						</div>
+				</div>
+				<% end %>
+			</div>
+	</body>
+</html>

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 	<head>
+<<<<<<< HEAD
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         </script> 
         <%=stylesheet_link_tag "new_trip.css.scss" %>
+=======
+>>>>>>> dc61dddac21942b9fdc9a523416509afb20cc594
 	</head>
 	<body>
 			<div id="topbar">
 				<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
 			</div>
+<<<<<<< HEAD
 			<div id="title-container">
 				<div id="title">Enter Your Information</div>
 <!-- 				<div id="details">List out event details to plan your carpool.</div> -->
@@ -23,3 +27,37 @@
 				<% end %>
 			</div>
 	</body>
+=======
+			<div id ="big-container">
+				<div id="title-container">
+					<div id="title">JOIN A CAR</div>
+					<div id="details">Add yourself to this car</div>
+				</div>
+				<div id="form-container">
+					<div id="input-container">
+						<%= simple_form_for @user do |u| %>
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								<%= u.input :first_name, label: "First Name" %>
+								<div class="clear"></div>
+						</div>
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								<%= u.input :last_name, label: "Last Name" %>
+								<%= u.submit "Submit"%>
+								<div class="clear"></div>
+						</div>
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								<%= u.input :email, label: "Email" %>
+								<%= u.submit "Submit"%>
+								<div class="clear"></div>
+						</div>
+				</div>
+				<% end %>
+			</div>
+	</body>
+</html>
+
+									
+>>>>>>> dc61dddac21942b9fdc9a523416509afb20cc594
