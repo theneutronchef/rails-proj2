@@ -85,21 +85,23 @@
 					</div>
 				</div>
 			</div>
+			<div id="button-container">
 			<div id="arrow-container">
 <!-- 				<img class="arrow" src="assets/img/bluearrow.png"/> -->
 				<%=image_tag("bluearrow.png", class: "arrow")%>
-				<div id="choose-car">available cars</div>
+				<div id="choose-car">choose a car</div>
 			</div>
 			<div id="middletext-container">
 				<div id="or-container">or</div>
 				<div id="click-container">Click a car for more information.</div>
 			</div>
-<!-- 			<div id="add-a-car"> -->
+ 			<div id="add-a-car">
 				<div id="add-car-text">
 					<!-- <%= button_to "add car", new_trip_car_path(@trip.id)%> -->
 					<%= link_to "add car", new_trip_car_path(@trip.id), :class => "add-car" %>
 				</div>
-<!-- 			</div> -->
+ 			</div>
+                        </div>
 			<div class="clear"></div>
 		</div>
 		<div id="carousel-container">
