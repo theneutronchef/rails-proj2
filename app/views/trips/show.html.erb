@@ -37,7 +37,7 @@
 						      <% if p != driver %>
 						        <li><%= p.first_name %> 
 						        	  <%= p.last_name %>
-						        	  <%= link_to "X", user_path(:user_id => p.id, :car_id => car.id, :trip_id => @trip.id), method: :delete %>
+						        	  <%= link_to "X", user_delete_path(:user_id => p.id, :car_id => car.id, :trip_id => @trip.id)%>
 						        </li>
 						      <% end %>
 						    <% end %>
@@ -48,7 +48,10 @@
 						<% if avail_seats > 0 %>
 								<div class="choose-car-button"> <%= link_to "choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
 						<%end%>
-						<div class="delete-car-button"> <%= link_to "Delete car", trip_car_path(@trip.id, car.id), method: :delete %></div>
+						<!-- <div class="delete-car-button"> <%= link_to "Delete car", trip_car_path(@trip.id, car.id), method: :delete %></div> -->
+						<div class="delete-car-button"> 
+							<%= link_to "Delete car", car_delete_path(:trip_id => @trip.id, :car_id => car.id)%> 
+						</div>
 						<div class="cancel">Cancel</div>
 					</div>
 					<%end%>

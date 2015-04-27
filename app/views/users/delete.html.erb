@@ -1,0 +1,5 @@
+Remove yourself from the car?
+<%= form_tag(action: :delete) do %>
+  Email: <%= text_field_tag(:email) %> 
+  <%= button_tag(:submit) %>
+<% end %>
