@@ -24,6 +24,7 @@
 						<div id="departure-time">Departure time: 
 							<% trip_date = @trip.datetime.strftime("%m/%d/%Y")
 								 depart_date = car.depart_datetime.strftime("%m/%d/%Y")
+							   avail_seats = car.number_of_seats - car.passengers.count
 							   depart_time = car.depart_datetime.strftime("%I:%M%p") %>
 						  <% if depart_date != trip_date %>
 						  <%= depart_date %> <%= depart_time %> 
@@ -39,8 +40,8 @@
 						    <% end %>
 						  </ul>
 						</div>
-						<div id="available-seats">Available Seats: <%= (car.number_of_seats - car.passengers.count).to_s %></div>
-						<% if car.passengers.count < car.number_of_seats %>
+						<div id="available-seats"><%= avail_seats > 0 ? "Available Seats: " + avail_seats.to_s : "Car Full"%></div>
+						<% if avail_seats > 0 %>
 								<div class="choose-car-button"> <%= link_to "Choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
 						<%end%>
 						<div class="cancel">cancel</div>
@@ -105,7 +106,13 @@
 	<!-- 						<img class="car-icon" src="assets/img/dashcar.png"/> -->
 							<%=image_tag("dashcar.png", class: "car-icon")%>
 						</div>
-						<div class="seats-text"><%= avail_seats.to_s %> <%= "seat".pluralize(avail_seats) %> available</div>
+						<div class="seats-text">
+						  <% if avail_seats == 0 %>
+						    Car Full
+						  <% else %>
+						    <%= avail_seats.to_s %> <%= "seat".pluralize(avail_seats) %> available
+						  <% end %>
+						</div>
 					</div>	
 					<% end %>
 											 	 
