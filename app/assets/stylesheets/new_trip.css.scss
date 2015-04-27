@@ -1654,3 +1654,38 @@ div#inputs-container {
     width: 50%;
     margin: 0 auto;
 }
+
+.input.datetime.optional.car_depart_datetime {
+    font-family: Open Sans, sans-serif;
+    margin-top: 20px;
+}
+
+select#car_depart_datetime_1i {
+    background-color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+label.datetime.optional {
+    font-size: 20px;
+}
+
+select#car_depart_datetime_2i {
+    font-size: 20px;   
+    background-color: white; 
+}
+
+select#car_depart_datetime_3i {
+    font-size: 20px;
+    background-color: white;
+}
+
+select#car_depart_datetime_4i {
+    font-size: 20px;
+    background-color: white;
+}
+
+select#car_depart_datetime_5i {
+    font-size: 20px;
+    background-color: white;
+}
