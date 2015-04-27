@@ -1,0 +1,119 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#topbar {
+    font-family: 'Open Sans',sans-serif;
+    width: 100%;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 10px;
+}
+
+#groupool {
+    float: left;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    padding-left: 14px;
+}
+
+#about {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+#help {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+#contact-us {
+    float: right;
+    padding-right: 12px;
+    padding-top: 8px;
+}
+
+body {
+    margin: 0px;
+}
+
+div#background-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 75%;
+}
+
+div#welcome-text {
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 40%;
+    font-family: Open Sans, sans-serif;
+    font-size: 60px;
+}
+
+div#plan-trips-text {
+    color: white;
+    font-family: Open Sans, sans-serif;
+    top: 35%;
+    left: 42%;
+    position: absolute;
+}
+
+input.trip-code {
+    position: absolute;
+    top: 43%;
+    left: 33%;
+    height: 35px;
+    width: 400px;
+    text-align: center;
+    font-size: 14px;
+}
+
+div#or {
+    color: white;
+    position: absolute;
+    left: 48%;
+    font-family: Open Sans, sans-serif;
+    top: 55%;
+    font-size: 24px;
+}
+
+div#make-a-trip {
+    top: 63%;
+    left: 43%;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    font-family: Open Sans, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.original {
+    color: white;
+    background-color: #FF9885;
+    border-color: white;
+}
+
+.make-a-trip-adders {
+    background-color: #FFCA85;
+    color: white;
+    border: white;
+}
+
+body {
+	margin-top: 0px;
+}

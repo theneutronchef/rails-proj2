@@ -1,0 +1,650 @@
+/* line 1, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 2, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 3, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 4, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+#topbar {
+  font-family: 'Open Sans',sans-serif;
+  width: 100%;
+  height: 50px;
+  background-color: #FF9885;
+  color: white;
+}
+
+/* line 9, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 11, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 13, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 15, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+#groupool {
+  float: left;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-left: 14px;
+}
+
+/* line 18, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 21, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 24, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 27, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+#about {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 24, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 28, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 32, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 36, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+#help {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 30, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 35, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 45, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 34, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 46, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+#contact-us {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 47, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 54, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 61, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+body {
+  margin: 0px;
+}
+
+/* line 44, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 60, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 68, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+#title-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 120px;
+  line-height: 1.2;
+  padding-bottom: 0px;
+}
+
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 61, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 70, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 79, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+#title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  letter-spacing: 4px;
+  font-size: 48px;
+  color: #3C62C2;
+  padding-top: 24px;
+}
+
+/* line 63, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 73, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 83, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 93, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div.trip-details-container {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  /* color: white; */
+  display: inline-block;
+  width: 400px;
+  line-height: 2;
+  border: solid;
+  border-radius: 20px;
+  height: 100%;
+  position: absolute;
+  left: 180px;
+  border-color: #E1E1E1;
+  border-width: 15px;
+}
+
+/* line 79, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 90, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 101, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 112, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#container-container {
+  width: 100%;
+  /* height: 100%; */
+  /* height: 500px; */
+  /* margin: 0 auto; */
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  /* background-color: white; */
+  /* border-radius: 25px; */
+  /* border-style: solid; */
+  /* border-color: #E1E1E1; */
+}
+
+/* line 93, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 105, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 117, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 129, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div.trip-details {
+  font-size: 20px;
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 100, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 113, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 126, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 139, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#edit {
+  display: inline-block;
+}
+
+/* line 104, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 118, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 132, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 146, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+img.arrow {
+  height: 100px;
+  display: inline-block;
+}
+
+/* line 109, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 139, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 154, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#choose-car {
+  /* display: inline-block; */
+  position: absolute;
+  text-align: center;
+  left: 37%;
+  top: 25%;
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-size: 22px;
+}
+
+/* line 120, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 136, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 152, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 168, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#middletext-container {
+  display: inline-block;
+}
+
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 141, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 158, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 175, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#comments {
+  position: absolute;
+  font-size: 24px;
+  left: 20px;
+}
+
+/* line 130, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 148, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 166, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 184, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.trip-comments-container {
+  display: inline-block;
+  font-family: Open Sans, sans-serif;
+  width: 40px;
+  text-align: center;
+  border: solid;
+  line-height: 2;
+  width: 400px;
+  position: absolute;
+  right: 180px;
+  top: 0px;
+  height: 100%;
+  border-radius: 20px;
+  border-color: #E1E1E1;
+  border-width: 15px;
+}
+
+/* line 147, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 166, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 185, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 204, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#trip-details {
+  display: inline-block;
+  position: absolute;
+  left: 18px;
+  font-size: 24px;
+}
+
+/* line 151, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 171, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 191, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 214, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#edit {
+  font-size: 12px;
+  color: blue;
+  position: absolute;
+  top: 12px;
+  left: 150px;
+}
+
+/* line 156, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 177, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 201, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 225, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.box {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 163, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 185, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 210, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 235, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#arrow-container {
+  position: absolute;
+  top: 72%;
+  left: 15%;
+}
+
+/* line 169, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 192, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 218, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 244, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#middletext-container {
+  position: absolute;
+  width: 100%;
+  top: 72%;
+  height: 100px;
+  text-align: center;
+}
+
+/* line 177, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 201, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 228, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 255, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#click-container {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  margin-top: 25px;
+  color: #68686c;
+  font-size: 12px;
+}
+
+/* line 185, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 210, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 238, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 266, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#or-container {
+  font-family: Open Sans, sans-serif;
+  font-size: 24px;
+  color: #474747;
+}
+
+/* line 191, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 217, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 246, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 275, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#add-a-car {
+  position: absolute;
+  left: 65%;
+  top: 72%;
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #3C62C2;
+}
+
+/* line 202, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 229, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 259, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 289, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#add-car-text {
+  font-size: 24px;
+  font-family: Open Sans, sans-serif;
+  color: white;
+  margin-top: 20px;
+}
+
+/* line 209, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 237, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 268, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 299, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#carousel-container {
+  background-color: #DADADA;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 300px;
+  margin-top: 20px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  width: 1275px;
+}
+
+/* line 221, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 250, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 282, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 314, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#body-container {
+  height: 495px;
+}
+
+/* line 225, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 255, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 288, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 321, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.carousel-item {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  border: solid;
+  background-color: #FD8473;
+  float: left;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-left: 30px;
+  border-color: white;
+  cursor: pointer;
+}
+
+/* line 239, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 270, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 304, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 338, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.carousel-item:hover {
+  -webkit-transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+/* line 244, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 276, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 311, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 346, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+img.car-icon {
+  height: 140px;
+  margin-left: 30px;
+  text-align: center;
+  position: absolute;
+  margin-bottom: 40px;
+  bottom: 12px;
+}
+
+/* line 253, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 286, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 322, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 358, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.seats-text {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  bottom: 40px;
+  font-weight: bolder;
+}
+
+/* line 263, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 297, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 334, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 371, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.name {
+  color: white;
+  font-family: Open Sans, sans serif;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+/* line 274, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 306, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 344, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 382, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+img.img-scaled {
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+/* line 280, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 314, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 353, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 392, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#carousel {
+  height: 300px;
+  width: 3825px;
+  -webkit-transition: all 0.3s;
+  margin-left: 0px;
+}
+
+/* line 287, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 322, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 362, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 402, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#prev {
+  width: 125px;
+  height: 300px;
+  background-color: #DFDDDF;
+  position: absolute;
+  cursor: pointer;
+  z-index: 15;
+  top: 0px;
+}
+
+/* line 297, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 333, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 374, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 415, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#next {
+  width: 125px;
+  height: 300px;
+  background-color: #DFDDDF;
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  right: 0px;
+}
+
+/* line 307, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 344, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 386, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 428, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+img.img-scaled-next {
+  height: 100px;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+/* line 315, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 353, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 396, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 439, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+.car-icon-container {
+  position: relative;
+  height: 160px;
+}
+
+/* line 358, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 402, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 446, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+input[type="submit"] {
+  position: absolute;
+  left: 65%;
+  top: 72%;
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  border: none;
+  font-family: sans-serif;
+  font-size: 24px;
+  background-color: #3C62C2;
+  cursor: pointer;
+}
+
+/* line 373, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 419, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 464, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#modal-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  display: none;
+}
+
+/* line 381, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 428, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 474, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div.modal-overlay {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* line 388, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 436, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 483, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div.modal-box {
+  width: 500px;
+  height: 300px;
+  background-color: #C5C2C2;
+  position: absolute;
+  left: calc(50% - 250px);
+  top: calc(50% - 130px);
+  color: white;
+  border: solid;
+  border-radius:20px;
+  padding-bottom: 20px;
+}
+
+/* line 400, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 449, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 497, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#meeting-place {
+  font-family: Open Sans, sans-serif;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/* line 406, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 456, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 505, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#people-in-car {
+  font-family: Open Sans, sans-serif;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* line 412, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 463, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 513, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#available-seats {
+  font-family: Open Sans, sans-serif;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+/* line 418, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 470, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 521, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div.choose-car-button {
+  font-family: Open Sans, sans-serif;
+  position: absolute;
+  left: 65%;
+  top: 20%;
+  font-size: 20px;
+  width: 150px;
+  vertical-align: middle;
+  padding-top: 15px;
+  text-align: center;
+  height: 40px;
+  border: solid;
+  background-color: #FD8473;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* line 435, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 488, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 540, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div.cancel {
+  left: 65%;
+  top: 45%;
+  position: absolute;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  padding-top: 15px;
+  text-align: center;
+  border: solid;
+  cursor: pointer;
+  background-color: #FD8473;
+}
+
+/* line 450, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 504, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 557, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#whose-car {
+  font-size: 24px;
+  font-family: Open Sans, sans-serif;
+  padding-left: 20px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+/* line 457, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 513, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 567, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#departure-time {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: Open Sans, sans-serif;
+}
+
+/* line 463, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 520, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+/* line 575, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#carousel-wrapper {
+  margin-left: 120px;
+}
+
+/* line 579, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#destination {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+/* line 585, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
+div#date-time {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

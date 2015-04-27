@@ -403,11 +403,9 @@ input.button {
     position: relative;
     left: 50%;
 }
-
 label.string.required {
     font-size: 20px;
 }
-
 input#trip_destination {
     width: 26%;
     padding-left: 12px;
@@ -418,7 +416,6 @@ input#trip_destination {
     padding: 5px;
     text-align: center;
 }
-
 label.text.optional {
     font-size: 20px;
     font-family: sans-serif;
@@ -426,7 +423,6 @@ label.text.optional {
     padding-left: 70px;
     margin: 0 auto;
 }
-
 textarea#trip_comments {
     font-size: 20px;
     margin-left: 12px;
@@ -434,11 +430,9 @@ textarea#trip_comments {
     width: 50%;
     padding-left: 10px;
 }
-
 label.datetime.required {
     font-size: 20px;
 }
-
 select#trip_datetime_1i {
     height: 38px;
     font-size: 20px;
@@ -446,32 +440,27 @@ select#trip_datetime_1i {
     margin-left: 42px;
     background-color: white;
 }
-
 select#trip_datetime_2i {
     height: 38px;
     border: none;
     font-size: 20px;
     background-color: white;
 }
-
 select#trip_datetime_3i {
     height: 38px;
     border: none;
     font-size: 20px;
     background-color: white;
 }
-
 select#trip_datetime_4i {
     height: 38px;
     border: none;
     font-size: 20px;
     background-color: white;
 }
-
 .input.datetime.required.trip_datetime {
     width: 1000px;
 }
-
 select#trip_datetime_5i {
     height: 38px;
     border: none;

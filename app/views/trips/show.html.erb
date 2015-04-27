@@ -1,63 +1,118 @@
-<h1>Trip Dashboard</h1>
 
-<p><%= link_to "Home", root_path() %></p>
-
-<h2>Trip Details</h2> 
-<p><b>Name: </b> <%= @trip.name %></p>
-<p><b>Destination: </b> <%= @trip.destination %></p>
-<p><b>Time: <%= @trip.datetime %></p>
-<% if @trip.comments %>
-<p><b>Event Details: </b> <%= @trip.comments %></p>
-<% end %>
-<p><%= link_to "Edit Trip Details", edit_trip_path %></p>
+<!-- <p><b>Name: </b> <%= @trip.name %></p> -->
+<!-- <p><b>Event Details: </b> <%= @trip.comments %></p> -->
 
 
-<h2>Cars</h2>
+<!DOCTYPE html>
+	<head>
+        <%=stylesheet_link_tag "new_trip.css.scss" %>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!--         // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  -->
+<!--         // <script src="assets/js/jquery-1.9.1.js"></script>
+        // <script src = "assets/js/dashboard.js"></script> -->
+        <%=javascript_include_tag "index.js", "jquery-1.9.1.js"%>
 
-  <p><%= link_to "Add Car", new_trip_car_path(@trip.id) %><p>
-
-  <% @cars.each do |car| %>
-  <div class="car">
-
-    <table>
-      <tr>
-	<td><b>Driver: </b></td>
-	<td><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %></td>
-      </tr>
-      <tr>
-	<td><b>Departs From: </b></td>
-	<td><%= car.origin %></td>
-      </tr>
-      <% if car.depart_datetime %>
-      <tr>
-	<td><b>Departs At: </b></td>
-	<td>
-		<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
-			 depart_date = car.depart_datetime.strftime("%d/%m/%Y")
-		   depart_time = car.depart_datetime.strftime("%I:%M%p") %>
-	  <% if depart_date != trip_date %>
-	  <%= depart_date %> 
-	  <% end %>
-	  <%= depart_time %>
-	</td>
-      </tr>
-      <% end %>
-      <tr>
-	<td><b>Remaining Seats: </b></td>
-	<td><%= (car.number_of_seats - car.passengers.count).to_s %></td>
-      </tr>
-      <tr>
-	<td><%= link_to "Details", trip_car_path(@trip.hashid, car.id) %></td>
-	<td>
-	  <% if car.passengers.count < car.number_of_seats %>
-	  Choose Car
-	  <% else %>
-	  <i>Car Full</i>
-	  <% end %>
-	</td>
-      </tr>
-    </table>
-
-  </div>
-  <% end %>
+	</head>
+	<body>
+		
+		<div id="modal-container" >
+			<div class="modal-overlay"></div>
+				<div class="modal-box">
+					<% @cars.each do |car| %>
+					<div class="modal-content" id="modal-content-<%=car.id%>">
+						<div id="whose-car"><%= car.drivers.first.first_name %>'s Car</div>
+						<div id="meeting-place">meeting place:<%= car.origin %></div>
+						<div id="departure-time">departure time: 
+							<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
+								 depart_date = car.depart_datetime.strftime("%d/%m/%Y")
+							   depart_time = car.depart_datetime.strftime("%I:%M%p") %>
+						  <% if depart_date != trip_date %>
+						  <%= depart_date %> 
+						  <% end %>
+						  <%= depart_time %>
+						</div>
+						<div id="people-in-car">passengers:
+							<ul>
+								<li>Kelly</li> <!-- TODO: change this -->
+								<li>Japheth</li>
+								<li>Gabriel</li>
+							</ul>
+						</div>
+						<div id="available-seats">Available Seats: <%= (car.number_of_seats - car.passengers.count).to_s %></div>
+						<% if car.passengers.count < car.number_of_seats %>
+							<div class="choose-car-button">choose car</div>
+						<%end%>
+						<div class="cancel">cancel</div>
+					</div>
+					<%end%>
+				</div>
+		</div>
+		<div id="topbar">
+			<div id="groupool"><%= link_to "groupool", root_path() %></div>
+		</div>
+		<div id="body-container">
+			<div id="title-container">
+				<div id="title"><%= @trip.name %></div>
+			</div>
+			<div id="container-container">
+				<div class="box">
+					<div class="trip-details-container">
+							<div id="trip-details">trip details:</div>
+							<div id="edit"><%= link_to "edit", edit_trip_path %></div>
+							<div id="destination">>> destination: <%= @trip.destination %></div>
+							<div id="date-time">>> date: <%=@trip.datetime.strftime("%m/%d/%Y") %></div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="trip-comments-container">
+						<div id="comments">creator's comments: 
+							<% if @trip.comments %>
+								<%= @trip.comments %>
+							<%end%>
+								</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div id="arrow-container">
+<!-- 				<img class="arrow" src="assets/img/bluearrow.png"/> -->
+				<%=image_tag("bluearrow.png", class: "arrow")%>
+				<div id="choose-car">choose a car</div>
+			</div>
+			<div id="middletext-container">
+				<div id="or-container">or</div>
+				<div id="click-container">Click a car for more information.</div>
+			</div>
+<!-- 			<div id="add-a-car"> -->
+				<div id="add-car-text"><%= button_to "add car", new_trip_car_path(@trip.id)%></div>
+<!-- 			</div> -->
+			<div class="clear"></div>
+		</div>
+		<div id="carousel-container">
+			<div id="carousel-wrapper">
+				<div id="carousel">
+					 <% @cars.each do |car| %>
+					<div class="carousel-item" data-id = "<%=car.id%>">
+						<div class="name"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %>'s car</div>
+						<div class="car-icon-container">
+	<!-- 						<img class="car-icon" src="assets/img/dashcar.png"/> -->
+							<%=image_tag("dashcar.png", class: "car-icon")%>
+						</div>
+						<div class="seats-text"><%= (car.number_of_seats - car.passengers.count).to_s %> seats available</div>
+					</div>	
+					<% end %>
+											 	 
+					<div class="clear"></div>													
+				</div>
+			</div>
+			<div id="prev">
+<!-- 			    <img class="img-scaled" src="assets/img/arrowleft.png" /> -->
+					<%=image_tag("arrowleft.png", class: "img-scaled")%>
+			</div>
+			<div id="next">
+<!-- 			    <img class="img-scaled-next" src="assets/img/arrowleft.png" /> -->
+					<%=image_tag("arrowleft.png", class: "img-scaled-next")%>
+			</div>				
+		</div>
+	</body>
 
