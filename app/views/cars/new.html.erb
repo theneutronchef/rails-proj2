@@ -1,4 +1,65 @@
-<h1>Create New Car</h1>
+<!DOCTYPE html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        </script> 
+        <%=stylesheet_link_tag "new_trip.css.scss" %>
+	</head>
+	<body>
+			<div id="topbar">
+				<div id="groupool">groupool</div>
+				<div id="about">Contact Us</div>
+				<div id="help">Help</div>			
+				<div id="contact-us">About</div>
+				<div class="clear"></div>
+			</div>
+			<div id ="big-container">
+				<div id="title-container">
+					<div id="title">Add a Car</div>
+					<div id="details">Add your car to trip <%= @trip.hashid %>.</div>
+				</div>
+				<div id="form-container">
+					<%= simple_form_for @car, :url => trip_cars_path(@trip, @car) do |c| %>
+					<div id="input-container">
+						<div class="input-name-container">
+							<div class="input-name-container">
+								<div class="input-name"></div>
+									<%= c.input :driver_first_name, label: "Driver First Name:", placeholder: ""%>
+	<!-- 								<input type = "text" class="inputs" placeholder = "Enter the name of your trip"> -->
+									<div class="clear"></div>
+									<%= c.input :driver_last_name, label: "Driver Last Name:", placeholder: "First Name"%>
+									<div class="clear"></div>
 
+							</div>
+							<div class="input-name"></div>
+								<%= c.input :number_of_seats, label: "Number of Seats:", placeholder: "Number of seats in your car" %>
+<!-- 								<input type = "text" class="inputs" placeholder = "Enter the name of your trip"> -->
+								<div class="clear"></div>
+						</div>
+						<div class="input-dest-container">
+							<div class="input-name">
+<!-- 								<img id="car" src = "assets/img/car_icon.png"> -->
+								<%=image_tag("car_icon.png", id: "car")%>
+					  			<%= c.input :origin, label: "origin:", placeholder: "Where are you leaving from?" %>
+<!-- 								<input type = "text" class="input-destination" placeholder = "Enter your destination" style="assets/img/car_icon.png"> -->
+							</div>
+								<div class="clear"></div>
+						</div>
+						<div class="input-time-container">
+							<div class="input-time"></div>
+								<%=image_tag("clock.png", id: "clock") %>
+								<%= c.input :depart_datetime, label: "date/time:" %>
+<!-- 								<input type= "text" class = "input-time" placeholder = "hh:mm">
+								<input type = "text" class="input-month" placeholder = "mm">
+								<input type = "text" class="input-day" placeholder = "dd">
+								<input type = "text" class="input-year" placeholder = "yyyy"> -->
+								<div class="clear"></div>
+						</div>
+					</div>
+					<div id="button"><%= c.submit "Add Your Car!", :class => "button"%>
+					</div>
+				</div>
+				<% end %>
+			</div>
+	</body>
 
-<b>Associated trip is: </b> <%= @trip.hashid %>
+</html>

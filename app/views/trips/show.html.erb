@@ -84,7 +84,10 @@
 				<div id="click-container">Click a car for more information.</div>
 			</div>
 <!-- 			<div id="add-a-car"> -->
-				<div id="add-car-text"><%= button_to "add car", new_trip_car_path(@trip.id)%></div>
+				<div id="add-car-text">
+					<!-- <%= button_to "add car", new_trip_car_path(@trip.id)%> -->
+					<%= link_to "Add Car", new_trip_car_path(@trip.id) %>
+				</div>
 <!-- 			</div> -->
 			<div class="clear"></div>
 		</div>
