@@ -24,9 +24,9 @@
 			Plan carpools for your trips!
 		</div>
 		<div id="trip-code-container">
-			<input type="text" class="trip-code" placeholder = "Enter your trip code"/>
+<!-- 			<input type="text" class="trip-code" placeholder = "Enter your trip code"/> -->
 			<%= form_tag(action: :search) do %>
-  			<%= text_field_tag(:SearchInput) %>
+  			<%= text_field_tag(:SearchInput, nil, placeholder:"Enter your trip code") %>
   			<%= button_tag(:submit) %>
 			<% end %>
 		</div>
