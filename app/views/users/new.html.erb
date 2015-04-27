@@ -1,7 +1,39 @@
-<%= simple_form_for @user do |u| %>
-	<%= u.input :first_name, label: "First Name" %>
-	<%= u.input :last_name, label: "Last Name" %>
-	<%= u.input :email, label: "Email" %>
-	<%= u.submit "Submit"%>
-<% end %>
+<!DOCTYPE html>
+	<head>
+	</head>
+	<body>
+			<div id="topbar">
+				<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
+			</div>
+			<div id ="big-container">
+				<div id="title-container">
+					<div id="title">JOIN A CAR</div>
+					<div id="details">Add yourself to this car</div>
+				</div>
+				<div id="form-container">
+					<div id="input-container">
+						<%= simple_form_for @user do |u| %>
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								<%= u.input :first_name, label: "First Name" %>
+								<div class="clear"></div>
+						</div>
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								<%= u.input :last_name, label: "Last Name" %>
+								<%= u.submit "Submit"%>
+								<div class="clear"></div>
+						</div>
+						<div class="input-name-container">
+							<div class="input-name"></div>
+								<%= u.input :email, label: "Email" %>
+								<%= u.submit "Submit"%>
+								<div class="clear"></div>
+						</div>
+				</div>
+				<% end %>
+			</div>
+	</body>
+</html>
+
 									
