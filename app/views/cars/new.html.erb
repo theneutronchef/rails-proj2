@@ -19,12 +19,12 @@
 						<div class="inputs-name-container">
 							<div class="input-driver-container">
 								<div class="input-driver"></div>
-									<%= c.input :driver_first_name, label: "Driver First Name:", placeholder: ""%>
+									Driver First Name <%= text_field_tag(:driver_first_name)%>
 	<!-- 								<input type = "text" class="inputs" placeholder = "Enter the name of your trip"> -->
 									<div class="clear"></div>
-									<%= c.input :driver_last_name, label: "Driver Last Name:", placeholder: "Last Name"%>
+									Driver Last Name <%= text_field_tag(:driver_last_name)%>
 									<div class="clear"></div>
-									<%= c.input :driver_email, label: "Email:", placeholder: "Email"%>
+									Driver Email <%= text_field_tag(:driver_email)%>
 									<div class="clear"></div>								
 
 							</div>

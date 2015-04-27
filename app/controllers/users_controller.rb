@@ -31,11 +31,23 @@ class UsersController < ApplicationController
     end
   end
 
+  def delete
+    flash[:car_id] = params[:car_id]
+    flash[:trip_id] = params[:trip_id]
+    flash[:user_id] = params[:user_id]
+  end
+
   def destroy
-    @relation = Relation.find_by(user_id: params[:user_id],  
-                                 car_id: params[:car_id],
-                                 trip_id: params[:trip_id])
-    @relation.delete
+    @relation = Relation.find_by(user_id: flash[:user_id],  
+                                 car_id: flash[:car_id],
+                                 trip_id: flash[:trip_id])
+    @user = User.find(flash[:user_id])
+    if params[:email] == @user.email
+      @relation.delete
+    end
+
+    @trip = Trip.find(flash[:trip_id])
+    redirect_to trip_path(id: @trip.hashid)
   end
 
   private

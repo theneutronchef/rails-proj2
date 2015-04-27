@@ -4,6 +4,11 @@ Rails.application.routes.draw do
   root 'home#index'
   post 'search' => 'home#search'
   get 'trips/error' => 'trips#error'
+  get 'car/delete' => 'cars#delete'
+  post 'car/delete' => 'cars#destroy'
+  get 'user/delete' => 'users#delete'
+  post 'user/delete' => 'users#destroy'
+
   resources :users
   # resources :cars
   resources :trips do 
