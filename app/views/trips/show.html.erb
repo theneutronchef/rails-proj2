@@ -47,12 +47,12 @@
 					<%end%>
 				</div>
 		</div>
-		<div id="topbar">
+		<div id="topbar-dash">
 			<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
 		</div>
 		<div id="body-container">
-			<div id="title-container">
-				<div id="title"><%= @trip.name %></div>
+			<div id="title-container-dash">
+				<div id="title-dash"><%= @trip.name %></div>
 			</div>
 			<div id="container-container">
 				<div class="box">
@@ -78,7 +78,7 @@
 			<div id="arrow-container">
 <!-- 				<img class="arrow" src="assets/img/bluearrow.png"/> -->
 				<%=image_tag("bluearrow.png", class: "arrow")%>
-				<div id="choose-car">choose a car</div>
+				<div id="choose-car">available cars</div>
 			</div>
 			<div id="middletext-container">
 				<div id="or-container">or</div>
