@@ -17,8 +17,9 @@
 			<div class="modal-overlay"></div>
 				<div class="modal-box">
 					<% @cars.each do |car| %>
+					<% driver = User.find(car.driver) %>
 					<div class="modal-content" id="modal-content-<%=car.id%>">
-						<div id="whose-car"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name.possessive %> Car</div>
+						<div id="whose-car"><%= driver.first_name %> <%= driver.last_name.possessive %> Car</div>
 						<div id="meeting-place">Meeting place: <%= car.origin %></div>
 						<div id="departure-time">Departure time: 
 							<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
@@ -32,7 +33,7 @@
 						<div id="people-in-car">Passengers:
 						  <ul>
 						    <% car.passengers.each do |p| %>
-						      <% if p.id != car.driver %>
+						      <% if p != driver %>
 						        <li><%= p.first_name %> <%= p.last_name %></li>
 						      <% end %>
 						    <% end %>
@@ -96,13 +97,15 @@
 			<div id="carousel-wrapper">
 				<div id="carousel">
 					 <% @cars.each do |car| %>
+					 <% driver = User.find(car.driver) %>
+					 <% avail_seats = car.number_of_seats - car.passengers.count %>
 					<div class="carousel-item" data-id = "<%=car.id%>">
-						<div class="name"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name.possessive %> car</div>
+						<div class="name"><%= driver.first_name %> <%= driver.last_name.possessive %> car</div>
 						<div class="car-icon-container">
 	<!-- 						<img class="car-icon" src="assets/img/dashcar.png"/> -->
 							<%=image_tag("dashcar.png", class: "car-icon")%>
 						</div>
-						<div class="seats-text"><%= (car.number_of_seats - car.passengers.count).to_s %> seats available</div>
+						<div class="seats-text"><%= avail_seats.to_s %> <%= "seat".pluralize(avail_seats) %> available</div>
 					</div>	
 					<% end %>
 											 	 
