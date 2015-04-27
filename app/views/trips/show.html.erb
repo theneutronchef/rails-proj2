@@ -22,11 +22,11 @@
 						<div id="whose-car"><%= driver.first_name %> <%= driver.last_name.possessive %> Car</div>
 						<div id="meeting-place">Meeting place: <%= car.origin %></div>
 						<div id="departure-time">Departure time: 
-							<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
-								 depart_date = car.depart_datetime.strftime("%d/%m/%Y")
+							<% trip_date = @trip.datetime.strftime("%m/%d/%Y")
+								 depart_date = car.depart_datetime.strftime("%m/%d/%Y")
 							   depart_time = car.depart_datetime.strftime("%I:%M%p") %>
 						  <% if depart_date != trip_date %>
-						  <%= depart_date %> 
+						  <%= depart_date %> <%= depart_time %> 
 						  <% end %>
 						  <%= depart_time %>
 						</div>
@@ -61,7 +61,7 @@
 							<div id="trip-details">trip details:</div>
 							<div id="edit"><%= link_to "edit", edit_trip_path %></div>
 							<div id="destination">>> <b>destination:</b> <%= @trip.destination %></div>
-							<div id="date-time">>> <b>date:</b> <%=@trip.datetime.strftime("%m/%d/%Y") %></div>
+							<div id="date-time">>> <b>date:</b> <%=@trip.datetime.strftime("%m/%d/%Y %I:%M%p") %></div>
 							<div id="trip-hash">>> <b>trip code:</b> <%= @trip.hashid %> </div>
 					</div>
 				</div>
