@@ -40,7 +40,7 @@
 						</div>
 						<div id="available-seats">Available Seats: <%= (car.number_of_seats - car.passengers.count).to_s %></div>
 						<% if car.passengers.count < car.number_of_seats %>
-								<div class="choose-car-button"> <%= link_to "Choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
+								<div class="choose-car-button"> <%= link_to "choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id), :class => "choose-car-link" %></div>
 						<%end%>
 						<div class="cancel">cancel</div>
 					</div>
@@ -87,7 +87,7 @@
 <!-- 			<div id="add-a-car"> -->
 				<div id="add-car-text">
 					<!-- <%= button_to "add car", new_trip_car_path(@trip.id)%> -->
-					<%= link_to "Add Car", new_trip_car_path(@trip.id) %>
+					<%= link_to "add car", new_trip_car_path(@trip.id), :class => "add-car" %>
 				</div>
 <!-- 			</div> -->
 			<div class="clear"></div>

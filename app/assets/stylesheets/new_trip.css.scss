@@ -1422,3 +1422,52 @@ a.groupool.link {
   text-decoration: none;
   color: white;
 }
+
+.input.string.optional.car_driver_first_name {
+  padding-top: 20px;
+  padding-left: 500px;
+}
+
+label.string.optional {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+input#car_driver_first_name{
+  width: 200px;
+  height: 24px;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.input.string.optional.car_driver_last_name {
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+input#car_driver_last_name {
+  width: 200px;
+  font-size: 24px;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.input.email.optional.car_driver_email {
+  padding-top: 20px;
+  margin-left: 500px;
+}
+
+label.email.optional {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+input#car_driver_email {
+  font-size: 24px;
+  width: 400px;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+
+
