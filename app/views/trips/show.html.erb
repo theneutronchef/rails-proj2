@@ -17,22 +17,24 @@
 			<div class="modal-overlay"></div>
 				<div class="modal-box">
 					<% @cars.each do |car| %>
+					<% driver = User.find(car.driver) %>
 					<div class="modal-content" id="modal-content-<%=car.id%>">
-						<div id="whose-car"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %> Car</div>
-						<div id="meeting-place">Meeting place: <%= car.origin %></div>
-						<div id="departure-time">Departure time: 
-							<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
-								 depart_date = car.depart_datetime.strftime("%d/%m/%Y")
+						<div id="whose-car"><b><%= driver.first_name %> <%= driver.last_name.possessive %> Car</b></div>
+						<div id="meeting-place"><b>Meeting Place:</b> <%= car.origin %></div>
+						<div id="departure-time"><b>Departure Time:</b> 
+							<% trip_date = @trip.datetime.strftime("%m/%d/%Y")
+								 depart_date = car.depart_datetime.strftime("%m/%d/%Y")
+							   avail_seats = car.number_of_seats - car.passengers.count
 							   depart_time = car.depart_datetime.strftime("%I:%M%p") %>
 						  <% if depart_date != trip_date %>
-						  <%= depart_date %> 
+						  <%= depart_date %> <%= depart_time %> 
 						  <% end %>
 						  <%= depart_time %>
 						</div>
-						<div id="people-in-car">Passengers:
+						<div id="people-in-car"><b>Passengers:</b>
 						  <ul>
 						    <% car.passengers.each do |p| %>
-						      <% if p.id != car.driver %>
+						      <% if p != driver %>
 						        <li><%= p.first_name %> 
 						        	  <%= p.last_name %>
 						        	  <%= link_to "X", user_path(:user_id => p.id, :car_id => car.id, :trip_id => @trip.id), method: :delete %>
@@ -41,31 +43,32 @@
 						    <% end %>
 						  </ul>
 						</div>
-						<div id="available-seats">Available Seats: <%= (car.number_of_seats - car.passengers.count).to_s %></div>
-						<% if car.passengers.count < car.number_of_seats %>
-								<div class="choose-car-button"> <%= link_to "Choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
+
+						<div id="available-seats"><%= avail_seats > 0 ? "Available Seats: " + avail_seats.to_s : "Car Full"%></div>
+						<% if avail_seats > 0 %>
+								<div class="choose-car-button"> <%= link_to "choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
 						<%end%>
 						<div class="delete-car-button"> <%= link_to "Delete car", trip_car_path(@trip.id, car.id), method: :delete %></div>
-						<div class="cancel">cancel</div>
+						<div class="cancel">Cancel</div>
 					</div>
 					<%end%>
 				</div>
 		</div>
-		<div id="topbar">
+		<div id="topbar-dash">
 			<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
 		</div>
 		<div id="body-container">
-			<div id="title-container">
-				<div id="title"><%= @trip.name %></div>
+			<div id="title-container-dash">
+				<div id="title-dash"><%= @trip.name %></div>
 			</div>
 			<div id="container-container">
 				<div class="box">
 					<div class="trip-details-container">
 							<div id="trip-details">trip details:</div>
 							<div id="edit"><%= link_to "edit", edit_trip_path %></div>
-							<div id="destination">>> destination: <%= @trip.destination %></div>
-							<div id="date-time">>> date: <%=@trip.datetime.strftime("%m/%d/%Y") %></div>
-							<div id="trip-hash">>>Remember your trip code: <%= @trip.hashid %> </div>
+							<div id="destination">>> <b>destination:</b> <%= @trip.destination %></div>
+							<div id="date-time">>> <b>date:</b> <%=@trip.datetime.strftime("%m/%d/%Y %I:%M%p") %></div>
+							<div id="trip-hash">>> <b>trip code:</b> <%= @trip.hashid %> </div>
 					</div>
 				</div>
 				<div class="box">
@@ -82,7 +85,7 @@
 			<div id="arrow-container">
 <!-- 				<img class="arrow" src="assets/img/bluearrow.png"/> -->
 				<%=image_tag("bluearrow.png", class: "arrow")%>
-				<div id="choose-car">choose a car</div>
+				<div id="choose-car">available cars</div>
 			</div>
 			<div id="middletext-container">
 				<div id="or-container">or</div>
@@ -91,7 +94,7 @@
 <!-- 			<div id="add-a-car"> -->
 				<div id="add-car-text">
 					<!-- <%= button_to "add car", new_trip_car_path(@trip.id)%> -->
-					<%= link_to "Add Car", new_trip_car_path(@trip.id) %>
+					<%= link_to "add car", new_trip_car_path(@trip.id), :class => "add-car" %>
 				</div>
 <!-- 			</div> -->
 			<div class="clear"></div>
@@ -100,13 +103,21 @@
 			<div id="carousel-wrapper">
 				<div id="carousel">
 					 <% @cars.each do |car| %>
+					 <% driver = User.find(car.driver) %>
+					 <% avail_seats = car.number_of_seats - car.passengers.count %>
 					<div class="carousel-item" data-id = "<%=car.id%>">
-						<div class="name"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %> car</div>
+						<div class="name"><%= driver.first_name %> <%= driver.last_name.possessive %> car</div>
 						<div class="car-icon-container">
 	<!-- 						<img class="car-icon" src="assets/img/dashcar.png"/> -->
 							<%=image_tag("dashcar.png", class: "car-icon")%>
 						</div>
-						<div class="seats-text"><%= (car.number_of_seats - car.passengers.count).to_s %> seats available</div>
+						<div class="seats-text">
+						  <% if avail_seats == 0 %>
+						    Car Full
+						  <% else %>
+						    <%= avail_seats.to_s %> <%= "seat".pluralize(avail_seats) %> available
+						  <% end %>
+						</div>
 					</div>	
 					<% end %>
 											 	 
