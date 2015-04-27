@@ -12,10 +12,6 @@
 		</div>
 		<div id="topbar-home">
 			<div id="groupool-home">groupool</div>
-			<div id="about-home">Contact Us</div>
-			<div id="help-home">Help</div>			
-			<div id="contact-us-home">About</div>
-			<div class="clear"></div>
 		</div>
 		<div id="welcome-text">
 			Welcome
@@ -31,7 +27,7 @@
 			<% end %>
 		</div>
 		<div id="or">or</div>
-		<div id="make-a-trip" class="original"><%= link_to "Make a Trip", new_trip_path() %></div>
+		<div id="make-a-trip" class="original"><%= link_to "Make a Trip", new_trip_path(), :class => "new-trip"%></div>
 	</body>
 </html>
 
