@@ -172,19 +172,18 @@ body {
 /* line 154, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 164, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div.trip-details-container {
-  text-align: center;
+  text-align: left;
   font-family: Open Sans, sans-serif;
   /* color: white; */
-  display: inline-block;
+  display: block;
   width: 400px;
   line-height: 2;
   border: solid;
   border-radius: 20px;
   height: 100%;
-  position: absolute;
-  left: 180px;
   border-color: #E1E1E1;
   border-width: 15px;
+  padding: 5px;
 }
 
 /* line 79, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -199,17 +198,11 @@ div.trip-details-container {
 /* line 179, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 190, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#container-container {
-  width: 100%;
-  /* height: 100%; */
-  /* height: 500px; */
-  /* margin: 0 auto; */
-  position: relative;
-  display: inline-block;
+  width: 1060px;
+  height: 225px;
+  margin: 0 auto;
+  display: block;
   text-align: center;
-  /* background-color: white; */
-  /* border-radius: 25px; */
-  /* border-style: solid; */
-  /* border-color: #E1E1E1; */
 }
 
 /* line 93, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -310,9 +303,7 @@ div#middletext-container {
 /* line 278, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 295, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#comments {
-  position: absolute;
   font-size: 24px;
-  left: 20px;
 }
 
 /* line 130, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -329,18 +320,15 @@ div#comments {
 .trip-comments-container {
   display: inline-block;
   font-family: Open Sans, sans-serif;
-  width: 40px;
-  text-align: center;
+  text-align: left;
   border: solid;
   line-height: 2;
   width: 400px;
-  position: absolute;
-  right: 180px;
-  top: 0px;
   height: 100%;
   border-radius: 20px;
   border-color: #E1E1E1;
   border-width: 15px;
+  padding: 5px;
 }
 
 /* line 147, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -356,8 +344,6 @@ div#comments {
 /* line 338, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#trip-details {
   display: inline-block;
-  position: absolute;
-  left: 18px;
   font-size: 24px;
 }
 
@@ -375,9 +361,7 @@ div#trip-details {
 div#edit {
   font-size: 12px;
   color: blue;
-  position: absolute;
-  top: 12px;
-  left: 150px;
+  margin-left: 10px;
 }
 
 /* line 156, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -392,10 +376,11 @@ div#edit {
 /* line 352, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 373, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 .box {
-  height: 100px;
-  width: 100%;
-  text-align: center;
-  display: inline-block;
+  height: 100%;
+  width: 430px;
+  text-align: left;
+  float: left;
+  margin: 0px 50px;
 }
 
 /* line 163, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -1018,9 +1003,7 @@ div#carousel-wrapper {
 /* line 899, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 954, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#destination {
-  position: absolute;
-  top: 50px;
-  left: 10px;
+
 }
 
 /* line 585, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -1032,9 +1015,7 @@ div#destination {
 /* line 911, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 967, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#date-time {
-  position: absolute;
-  top: 80px;
-  left: 10px;
+
 }
 
 /* line 647, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -1046,9 +1027,7 @@ div#date-time {
 /* line 923, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 980, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#trip-hash {
-  position: absolute;
-  top: 110px;
-  left: 10px;
+
 }
 
 /* line 713, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -1059,9 +1038,6 @@ div#trip-hash {
 /* line 991, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#tripcomments {
   font-size: 14px;
-  position: absolute;
-  top: 60px;
-  left: 10px;
 }
 
 /* line 775, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
