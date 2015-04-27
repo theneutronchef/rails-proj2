@@ -1811,3 +1811,36 @@ input#driver_email {
 select#car_depart_datetime_1i {
     margin-left: 80px;
 }
+
+div#new-user-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+div#new-user-firstname {}
+
+input#user_first_name {
+    width: 500px;
+    height: 20px;
+    margin-left: 6px;
+    margin-top: 50px;
+}
+
+input#user_last_name {
+    height: 20px;
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+label.email.required {
+    font-size: 20px;
+    font-family: Open Sans, sans-serif;
+}
+
+input#user_email {
+    width: 500px;
+    margin-left: 49px;
+    height: 20px;
+    margin-top: 20px;
+}

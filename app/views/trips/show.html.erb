@@ -50,9 +50,9 @@
 						<%end%>
 						<!-- <div class="delete-car-button"> <%= link_to "Delete car", trip_car_path(@trip.id, car.id), method: :delete %></div> -->
 						<div class="delete-car-button"> 
-							<%= link_to "Delete car", car_delete_path(:trip_id => @trip.id, :car_id => car.id)%> 
+							<%= link_to "delete car", car_delete_path(:trip_id => @trip.id, :car_id => car.id, :class => "deleting-car")%> 
 						</div>
-						<div class="cancel">Cancel</div>
+						<div class="cancel">cancel</div>
 					</div>
 					<%end%>
 				</div>

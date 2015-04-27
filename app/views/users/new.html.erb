@@ -1,7 +1,25 @@
-<%= simple_form_for @user do |u| %>
-	<%= u.input :first_name, label: "First Name" %>
-	<%= u.input :last_name, label: "Last Name" %>
-	<%= u.input :email, label: "Email" %>
-	<%= u.submit "Submit"%>
-<% end %>
-									
+<!DOCTYPE html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        </script> 
+        <%=stylesheet_link_tag "new_trip.css.scss" %>
+	</head>
+	<body>
+			<div id="topbar">
+				<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
+			</div>
+			<div id="title-container">
+				<div id="title">Enter Your Information</div>
+<!-- 				<div id="details">List out event details to plan your carpool.</div> -->
+			</div>
+			<div id="form-container">
+				<%= simple_form_for @user do |u| %>
+					<div id= "new-user-form">
+						<div id="new-user-firstname"><%= u.input :first_name, label: "first name" %></div>
+						<div id="new-user-lastname"><%= u.input :last_name, label: "last name" %></div>
+						<div id="new-user-email"><%= u.input :email, label: "email" %></div>
+						<div id="submit"><%= u.submit "submit"%></div>
+					</div>
+				<% end %>
+			</div>
+	</body>
