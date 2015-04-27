@@ -388,6 +388,12 @@ div#button-container {
   margin: 10px auto;
 }
 
+div#button-container-inner { /** This is a bit of a hack, getting lazy. **/
+  width: 970px;
+  margin-left: 10px;
+  height: 100%;
+}
+
 /* line 163, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 185, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 210, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -423,7 +429,7 @@ div#middletext-container {
   display: inline-block;
   float: left;
   line-height: 88px;
-  width: 100px;
+  width: 90px;
   margin: 0px auto;
 }
 
