@@ -2,7 +2,6 @@ class TripsController < ApplicationController
 
   def show
     @trip = Trip.find_by(hashid: params[:id])
-
     if not @trip
       redirect_to trips_error_path()
     else

@@ -44,6 +44,7 @@ gem 'safe_attributes'
 gem 'annotate'
 gem 'devise'
 gem 'awesome_print'
+gem 'possessive'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'

@@ -5,8 +5,6 @@
 
 <!DOCTYPE html>
 	<head>
-        <%=stylesheet_link_tag "new_trip.css.scss" %>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <!--         // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>  -->
 <!--         // <script src="assets/js/jquery-1.9.1.js"></script>
         // <script src = "assets/js/dashboard.js"></script> -->
@@ -20,7 +18,7 @@
 				<div class="modal-box">
 					<% @cars.each do |car| %>
 					<div class="modal-content" id="modal-content-<%=car.id%>">
-						<div id="whose-car"><%= car.drivers.first.first_name %>'s Car</div>
+						<div id="whose-car"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name.possessive %> Car</div>
 						<div id="meeting-place">Meeting place: <%= car.origin %></div>
 						<div id="departure-time">Departure time: 
 							<% trip_date = @trip.datetime.strftime("%d/%m/%Y")
@@ -32,15 +30,17 @@
 						  <%= depart_time %>
 						</div>
 						<div id="people-in-car">Passengers:
-							<ul>
-								<li>Kelly</li> <!-- TODO: change this -->
-								<li>Japheth</li>
-								<li>Gabriel</li>
-							</ul>
+						  <ul>
+						    <% car.passengers.each do |p| %>
+						      <% if p.id != car.driver %>
+						        <li><%= p.first_name %> <%= p.last_name %></li>
+						      <% end %>
+						    <% end %>
+						  </ul>
 						</div>
 						<div id="available-seats">Available Seats: <%= (car.number_of_seats - car.passengers.count).to_s %></div>
 						<% if car.passengers.count < car.number_of_seats %>
-							<div class="choose-car-button">choose car</div>
+								<div class="choose-car-button"> <%= link_to "Choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
 						<%end%>
 						<div class="cancel">cancel</div>
 					</div>
@@ -85,7 +85,10 @@
 				<div id="click-container">Click a car for more information.</div>
 			</div>
 <!-- 			<div id="add-a-car"> -->
-				<div id="add-car-text"><%= button_to "add car", new_trip_car_path(@trip.id)%></div>
+				<div id="add-car-text">
+					<!-- <%= button_to "add car", new_trip_car_path(@trip.id)%> -->
+					<%= link_to "Add Car", new_trip_car_path(@trip.id) %>
+				</div>
 <!-- 			</div> -->
 			<div class="clear"></div>
 		</div>
@@ -94,7 +97,7 @@
 				<div id="carousel">
 					 <% @cars.each do |car| %>
 					<div class="carousel-item" data-id = "<%=car.id%>">
-						<div class="name"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name %>'s car</div>
+						<div class="name"><%= car.drivers.first.first_name %> <%= car.drivers.first.last_name.possessive %> car</div>
 						<div class="car-icon-container">
 	<!-- 						<img class="car-icon" src="assets/img/dashcar.png"/> -->
 							<%=image_tag("dashcar.png", class: "car-icon")%>

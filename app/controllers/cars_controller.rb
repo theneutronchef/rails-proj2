@@ -6,9 +6,26 @@ class CarsController < ApplicationController
   end
 
   def create
-    @car = Car.new(car_params)
+    @trip = Trip.find(params[:trip_id])
+    @car = Car.new(car_params)    
+    @relation = Relation.new
     if @car.save
-      # redirect_to trips_path(hashid: @trip.hashid)
+      @driver = User.find_by(first_name: @car.driver_first_name, last_name: @car.driver_last_name)
+      if not @driver 
+        @user = User.new
+        @user.first_name = @car.driver_first_name
+        @user.last_name = @car.driver_last_name
+        @user.email = @car.driver_email
+        @user.save
+        @driver = @user
+      end
+      @relation.trip_id = @trip.id
+      @relation.car_id = @car.id
+      @relation.user_id = @driver.id
+      @car.driver = @driver.id
+      @car.save
+      @relation.save
+      redirect_to trip_path(id: @trip.hashid)
     else
       render "new"
     end
@@ -23,7 +40,7 @@ class CarsController < ApplicationController
   private
 
   def car_params
-    params.require(:car).permit(:driver, :number_of_seats, :origin)
+    params.require(:car).permit(:driver_first_name, :driver_last_name, :driver_email, :number_of_seats, :origin, :depart_datetime)
   end
 
 
