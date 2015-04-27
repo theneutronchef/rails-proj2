@@ -1469,5 +1469,23 @@ input#car_driver_email {
   padding-left: 5px;
 }
 
+label.integer.required {
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+input#car_number_of_seats {
+    font-size: 24px;
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.input.integer.required.car_number_of_seats {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
 
 

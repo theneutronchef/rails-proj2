@@ -1,0 +1,5 @@
+This car can only be deleted by the driver. 
+<%= form_tag(action: :delete) do %>
+  Email: <%= text_field_tag(:email) %> 
+  <%= button_tag(:submit) %>
+<% end %>
