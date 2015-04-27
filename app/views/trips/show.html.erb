@@ -30,11 +30,13 @@
 						  <%= depart_time %>
 						</div>
 						<div id="people-in-car">Passengers:
-							<ul>
-								<li>Kelly</li> <!-- TODO: change this -->
-								<li>Japheth</li>
-								<li>Gabriel</li>
-							</ul>
+						  <ul>
+						    <% car.passengers.each do |p| %>
+						      <% if p.id != car.driver %>
+						        <li><%= p.first_name %> <%= p.last_name %></li>
+						      <% end %>
+						    <% end %>
+						  </ul>
 						</div>
 						<div id="available-seats">Available Seats: <%= (car.number_of_seats - car.passengers.count).to_s %></div>
 						<% if car.passengers.count < car.number_of_seats %>
