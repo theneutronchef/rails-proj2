@@ -19,32 +19,30 @@
 						<div class="inputs-name-container">
 							<div class="input-driver-container">
 								<div class="input-driver"></div>
-									Driver First Name <%= text_field_tag(:driver_first_name)%>
+									first name: <%= text_field_tag(:driver_first_name)%>
 	<!-- 								<input type = "text" class="inputs" placeholder = "Enter the name of your trip"> -->
 									<div class="clear"></div>
-									Driver Last Name <%= text_field_tag(:driver_last_name)%>
+									last name: <%= text_field_tag(:driver_last_name)%>
 									<div class="clear"></div>
-									Driver Email <%= text_field_tag(:driver_email)%>
+									email: <%= text_field_tag(:driver_email)%>
 									<div class="clear"></div>								
 
 							</div>
 							<div class="input-driver"></div>
-								<%= c.input :number_of_seats, label: "Number of Seats:", placeholder: "Number of seats in your car" %>
+								<%= c.input :number_of_seats, label: "number of seats: ", placeholder: "Number of seats including yourself" %>
 <!-- 								<input type = "text" class="inputs" placeholder = "Enter the name of your trip"> -->
 								<div class="clear"></div>
 						</div>
 						<div class="input-origin-container">
 							<div class="input-lorigin">
 <!-- 								<img id="car" src = "assets/img/car_icon.png"> -->
-								<%=image_tag("car_icon.png", id: "car2")%>
-					  			<%= c.input :origin, label: "origin:", placeholder: "Where are you leaving from?" %>
+					  			<%= c.input :origin, label: "depart location", placeholder: "Where are you leaving from?" %>
 <!-- 								<input type = "text" class="input-destination" placeholder = "Enter your destination" style="assets/img/car_icon.png"> -->
 							</div>
 								<div class="clear"></div>
 						</div>
 						<div class="input-daytime-container">
 							<div class="input-daytime"></div>
-								<%=image_tag("clock.png", id: "clock2") %>
 								<%= c.input :depart_datetime, label: "date/time:" %>
 <!-- 								<input type= "text" class = "input-time" placeholder = "hh:mm">
 								<input type = "text" class="input-month" placeholder = "mm">
