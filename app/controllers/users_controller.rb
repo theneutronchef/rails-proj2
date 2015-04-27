@@ -2,8 +2,10 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
+    @trip = Trip.find_by(id: params[:trip_id])
     flash[:car_id] = params[:car_id]
     flash[:trip_id] = params[:trip_id]
+
   end
 
   def create
@@ -11,7 +13,15 @@ class UsersController < ApplicationController
                          last_name: user_params()[:last_name],
                          email: user_params()[:email])
     if not @user
-      @user = User.new(user_params)
+      @user2 = User.find_by(email: user_params()[:email])
+      if not @user2
+        @user = User.new(user_params)
+      else
+        redirect_to new_user_path(:car_id => flash[:car_id],
+                                     :trip_id => flash[:trip_id],
+                                     :warning => true)
+        return
+      end
     end
 
     if @user.save
@@ -32,6 +42,7 @@ class UsersController < ApplicationController
   end
 
   def delete
+    @trip = Trip.find(params[:trip_id])
     flash[:car_id] = params[:car_id]
     flash[:trip_id] = params[:trip_id]
     flash[:user_id] = params[:user_id]

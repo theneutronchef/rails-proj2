@@ -48,6 +48,7 @@ class CarsController < ApplicationController
   end
 
   def delete
+    @trip = Trip.find(params[:trip_id])
     flash[:trip_id] = params[:trip_id]
     flash[:car_id] = params[:car_id]
   end

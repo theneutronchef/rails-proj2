@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 	<head>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        </script> 
+        <%=stylesheet_link_tag "new_trip.css.scss" %>
 	</head>
 	<body>
 			<div id="topbar">
 				<div id="groupool"><%= link_to "groupool", root_path(), :class => "groupool-link" %></div>
 			</div>
-			<div id ="big-container">
-				<div id="title-container">
-					<div id="title">JOIN A CAR</div>
-					<div id="details">Add yourself to this car</div>
-				</div>
-				<div id="form-container">
-					<div id="input-container">
-						<%= simple_form_for @user do |u| %>
-						<div class="input-name-container">
-							<div class="input-name"></div>
-								<%= u.input :first_name, label: "First Name" %>
-								<div class="clear"></div>
-						</div>
-						<div class="input-name-container">
-							<div class="input-name"></div>
-								<%= u.input :last_name, label: "Last Name" %>
-								<%= u.submit "Submit"%>
-								<div class="clear"></div>
-						</div>
-						<div class="input-name-container">
-							<div class="input-name"></div>
-								<%= u.input :email, label: "Email" %>
-								<%= u.submit "Submit"%>
-								<div class="clear"></div>
-						</div>
-				</div>
+
+			<div id="title-container">
+				<div id="title">Join a Car</div>
+				<div id="details">Enter your information to add yourself to this car</div>
+<!-- 				<div id="details">List out event details to plan your carpool.</div> -->
+			</div>
+			<div id="form-container">
+				<% if params[:warning] %>
+							<div id="warning"> Email has been taken. Please try again.</div>
+				<% end  %>
+				<%= simple_form_for @user do |u| %>
+					<div id= "new-user-form">
+						<div id="new-user-firstname"><%= u.input :first_name, label: "first name" %></div>
+						<div id="new-user-lastname"><%= u.input :last_name, label: "last name" %></div>
+						<div id="new-user-email"><%= u.input :email, label: "email" %></div>
+						<div id="submit"><%= u.submit "submit"%></div>
+					</div>
 				<% end %>
 			</div>
+			<%= link_to "Go back", trip_path(id: @trip.hashid), method: :get%>
 	</body>
+
 </html>
 
 									
