@@ -1,0 +1,8 @@
+<%= params %>
+<%= simple_form_for @user do |u| %>
+	<%= u.input :first_name, label: "First Name" %>
+	<%= u.input :last_name, label: "Last Name" %>
+	<%= u.input :email, label: "Email" %>
+	<%= u.submit "Submit"%>
+<% end %>
+									

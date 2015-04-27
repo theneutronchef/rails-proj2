@@ -15,6 +15,7 @@ class CarsController < ApplicationController
         @user = User.new
         @user.first_name = @car.driver_first_name
         @user.last_name = @car.driver_last_name
+        @user.email = @car.driver_email
         @user.save
         @driver = @user
       end
@@ -39,7 +40,7 @@ class CarsController < ApplicationController
   private
 
   def car_params
-    params.require(:car).permit(:driver_first_name, :driver_last_name, :number_of_seats, :origin, :depart_datetime)
+    params.require(:car).permit(:driver_first_name, :driver_last_name, :driver_email, :number_of_seats, :origin, :depart_datetime)
   end
 
 
