@@ -590,14 +590,9 @@ div#add-car-text {
 /* line 561, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#carousel-container {
   background-color: #DADADA;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
   height: 300px;
-  margin-top: 20px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  width: 1275px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
 }
 
 /* line 221, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -763,9 +758,9 @@ img.img-scaled {
 /* line 726, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#carousel {
   height: 300px;
-  width: 3825px;
   -webkit-transition: all 0.3s;
   margin-left: 0px;
+  overflow: hidden;
 }
 
 /* line 287, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -785,10 +780,8 @@ div#prev {
   width: 125px;
   height: 300px;
   background-color: #DFDDDF;
-  position: absolute;
   cursor: pointer;
-  z-index: 15;
-  top: 0px;
+  position: absolute;
 }
 
 /* line 297, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
@@ -808,9 +801,8 @@ div#next {
   width: 125px;
   height: 300px;
   background-color: #DFDDDF;
-  position: absolute;
   cursor: pointer;
-  top: 0px;
+  position: absolute;
   right: 0px;
 }
 
@@ -1120,7 +1112,10 @@ div#departure-time {
 /* line 999, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 /* line 1066, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
 div#carousel-wrapper {
-  margin-left: 120px;
+  margin: auto 125px;
+  position: absolute;
+  overflow: hidden;
+
 }
 
 /* line 579, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/dashboard.css.scss */
