@@ -19,9 +19,9 @@
 					<% @cars.each do |car| %>
 					<% driver = User.find(car.driver) %>
 					<div class="modal-content" id="modal-content-<%=car.id%>">
-						<div id="whose-car"><%= driver.first_name %> <%= driver.last_name.possessive %> Car</div>
-						<div id="meeting-place">Meeting place: <%= car.origin %></div>
-						<div id="departure-time">Departure time: 
+						<div id="whose-car"><b><%= driver.first_name %> <%= driver.last_name.possessive %> Car</b></div>
+						<div id="meeting-place"><b>Meeting Place:</b> <%= car.origin %></div>
+						<div id="departure-time"><b>Departure Time:</b> 
 							<% trip_date = @trip.datetime.strftime("%m/%d/%Y")
 								 depart_date = car.depart_datetime.strftime("%m/%d/%Y")
 							   avail_seats = car.number_of_seats - car.passengers.count
@@ -31,7 +31,7 @@
 						  <% end %>
 						  <%= depart_time %>
 						</div>
-						<div id="people-in-car">Passengers:
+						<div id="people-in-car"><b>Passengers:</b>
 						  <ul>
 						    <% car.passengers.each do |p| %>
 						      <% if p != driver %>
