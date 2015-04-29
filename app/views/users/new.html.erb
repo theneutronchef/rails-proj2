@@ -24,11 +24,11 @@
 						<div id="new-user-firstname"><%= u.input :first_name, label: "first name" %></div>
 						<div id="new-user-lastname"><%= u.input :last_name, label: "last name" %></div>
 						<div id="new-user-email"><%= u.input :email, label: "email" %></div>
-						<div id="submit"><%= u.submit "submit"%></div>
+						<div id="submit"><%= u.submit "submit", class: "button_submit_newuser"%></div>
 					</div>
 				<% end %>
 			</div>
-			<%= link_to "Go back", trip_path(id: @trip.hashid), method: :get%>
+			<%= link_to "Go back", trip_path(id: @trip.hashid), method: :get, :class => "go_back_newuser"%>
 	</body>
 
 </html>

@@ -17,14 +17,16 @@
 						<% end  %>
 						<%= form_tag(action: :delete) do %>
 						<div class="input-name-container">
-							<div class="input-name"></div>
-								Email: <%= text_field_tag(:email) %> 
-  							<%= button_tag(:submit) %>
+								<div class="email_container">Email:</div> <div class="email_box_delete"><%= text_field_tag(:email) %></div>
+								<div class="clear"></div>
+							<div class="delete_car_button">
+  								<%= button_tag(:submit, :class => 'button_tag_for_delete') %>
+  							</div>
 								<div class="clear"></div>
 						</div>
 				</div>
 				<% end %>
-				<%= link_to "Go back", trip_path(id: @trip.hashid), 		method: :get%>
+				<%= link_to "Go back", trip_path(id: @trip.hashid), method: :get, :class => "go_back_from_deletecar"%>
 
 			</div>
 	</body>

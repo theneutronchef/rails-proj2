@@ -1,3 +1,2188 @@
-// Place all the styles related to the car controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* line 5, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 3, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+button.button_tag_for_delete {
+  background-color: #FF9885;
+  color: white;
+  top: 50%;
+  margin-bottom: 50px;
+}
+
+/* line 1, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 2, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 3, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 4, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 5, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 6, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 7, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 8, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 9, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 10, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 11, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 12, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 13, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 14, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 15, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 16, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 28, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 27, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#topbar {
+  font-family: 'Open Sans',sans-serif;
+  width: 100%;
+  height: 50px;
+  background-color: #FF9885;
+  color: white;
+}
+
+/* line 9, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 11, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 13, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 15, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 17, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 19, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 21, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 23, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 25, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 27, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 29, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 31, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 33, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 35, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 37, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 39, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#groupool {
+  float: left;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-left: 14px;
+}
+
+/* line 18, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 21, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 24, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 27, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 30, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 33, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 36, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 39, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 42, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 45, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 48, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 51, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 54, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 57, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 60, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 63, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 77, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 78, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#about {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 24, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 28, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 32, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 36, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 44, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 48, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 56, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 60, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 64, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 68, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 72, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 76, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 80, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 84, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 99, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 101, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#help {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 30, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 35, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 45, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 50, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 55, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 60, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 65, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 70, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 75, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 80, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 85, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 90, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 95, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 100, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 105, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 121, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 34, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 46, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 58, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 64, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 70, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 76, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 82, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 88, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 94, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 100, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 106, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 112, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 118, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 141, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 145, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#contact-us {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 47, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 54, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 61, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 68, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 75, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 82, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 89, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 96, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 103, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 110, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 117, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 131, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 138, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 145, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 163, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 168, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+body {
+  margin: 0px;
+}
+
+/* line 44, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 52, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 60, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 68, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 76, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 84, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 92, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 100, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 108, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 116, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 132, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 140, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 148, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 156, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 164, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 183, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 189, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#title-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 120px;
+  padding-bottom: 36px;
+  line-height: 1.2;
+}
+
+/* line 53, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 62, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 71, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 80, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 89, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 98, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 107, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 116, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 125, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 134, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 143, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 152, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 161, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 170, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 179, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 188, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 208, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 215, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  letter-spacing: 4px;
+  font-size: 48px;
+  color: #3C62C2;
+  padding-top: 24px;
+}
+
+/* line 64, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 74, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 84, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 94, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 104, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 114, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 134, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 144, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 154, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 164, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 174, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 184, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 194, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 204, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 214, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 235, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 243, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#details {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  color: #A2A2A2;
+  font-size: 18px;
+}
+
+/* line 71, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 82, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 93, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 104, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 115, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 126, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 137, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 148, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 159, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 170, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 181, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 192, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 203, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 214, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 225, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 236, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 258, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 267, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#form-container {
+  background-color: #E5E5E5;
+  padding-bottom: 40px;
+}
+
+/* line 76, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 88, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 100, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 112, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 136, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 148, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 160, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 172, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 184, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 196, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 208, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 220, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 232, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 244, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 256, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 279, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 289, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-name {
+  font-family: Open Sans,sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+/* line 83, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 96, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 109, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 122, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 135, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 148, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 161, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 174, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 187, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 200, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 213, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 226, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 239, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 252, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 265, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 278, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 302, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 313, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-name-container {
+  padding-top: 80px;
+  padding-left: 80px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 90, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 104, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 118, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 132, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 146, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 160, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 174, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 188, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 202, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 216, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 230, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 244, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 258, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 272, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 286, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 300, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 325, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 337, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.inputs {
+  font-size: 20px;
+  width: 40%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+/* line 97, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 112, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 127, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 142, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 157, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 172, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 187, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 202, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 217, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 232, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 247, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 262, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 277, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 292, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 307, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 322, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 348, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 361, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#trip_name {
+  font-size: 20px;
+  width: 40%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+/* line 104, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 120, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 136, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 152, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 168, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 184, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 200, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 216, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 232, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 248, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 264, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 280, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 296, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 312, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 328, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 344, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 371, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 385, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-dest-container {
+  padding-left: 80px;
+  padding-top: 24px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 111, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 128, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 145, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 162, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 179, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 196, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 213, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 230, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 247, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 264, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 281, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 298, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 315, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 332, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 349, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 366, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 394, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 409, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-destination {
+  width: 26%;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 50px;
+  position: absolute;
+  margin-left: 22px;
+}
+
+/* line 120, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 138, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 156, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 174, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 192, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 210, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 228, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 246, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 264, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 282, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 300, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 318, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 336, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 354, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 372, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 390, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 419, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 435, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+img#car {
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 12px;
+  position: absolute;
+  z-index: 5;
+  margin-left: 20px;
+}
+
+/* line 129, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 148, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 167, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 186, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 205, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 224, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 243, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 262, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 281, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 300, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 319, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 338, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 357, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 376, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 395, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 414, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 444, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 461, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-time-container {
+  padding-left: 55px;
+  padding-top: 36px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 136, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 156, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 176, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 196, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 216, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 236, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 256, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 276, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 296, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 316, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 336, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 356, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 376, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 396, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 416, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 436, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 467, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 485, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-time {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 23%;
+  display: inline-block;
+}
+
+/* line 144, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 165, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 186, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 207, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 228, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 249, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 270, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 291, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 312, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 333, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 354, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 375, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 396, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 417, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 438, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 459, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 491, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 510, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-month {
+  display: inline-block;
+  font-size: 20px;
+  width: 7%;
+  text-align: center;
+}
+
+/* line 151, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 173, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 195, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 217, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 239, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 261, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 283, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 305, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 327, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 349, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 371, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 393, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 415, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 437, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 459, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 481, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 514, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 534, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+img#clock {
+  height: 20px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 6px;
+}
+
+/* line 158, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 181, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 204, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 227, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 250, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 273, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 296, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 319, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 342, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 365, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 388, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 411, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 434, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 457, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 480, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 503, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 537, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 558, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-day {
+  font-size: 20px;
+  width: 7%;
+  text-align: center;
+}
+
+/* line 164, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 188, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 212, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 236, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 260, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 284, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 308, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 332, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 356, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 380, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 404, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 428, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 452, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 476, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 500, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 524, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 559, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 581, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-year {
+  font-size: 20px;
+  width: 7%;
+  text-align: center;
+}
+
+/* line 170, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 195, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 220, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 245, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 270, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 295, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 320, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 345, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 370, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 395, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 420, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 445, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 470, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 495, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 520, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 545, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 581, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 604, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-comments {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  padding-left: 70px;
+}
+
+/* line 177, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 203, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 229, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 255, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 281, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 307, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 333, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 359, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 385, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 411, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 437, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 463, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 489, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 515, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 541, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 567, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 604, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 628, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.bigger-input {
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* line 182, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 209, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 236, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 263, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 290, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 317, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 344, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 371, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 398, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 425, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 452, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 479, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 506, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 533, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 560, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 587, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 625, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 650, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-comments-container {
+  padding-top: 24px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*div.input.button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #FF9885;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+input.button {
+    width: 150px;
+    height: 60px;
+    background-color: #FF9885;
+    color: white;
+    font-family: sans-serif;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    position: relative;
+    left: 50%;
+}
+label.string.required {
+    font-size: 20px;
+}
+input#trip_destination {
+    width: 26%;
+    padding-left: 12px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+label.text.optional {
+    font-size: 20px;
+    font-family: sans-serif;
+    dislay: inline-block;
+    padding-left: 70px;
+    margin: 0 auto;
+}
+textarea#trip_comments {
+    font-size: 20px;
+    margin-left: 12px;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+}
+label.datetime.required {
+    font-size: 20px;
+}
+select#trip_datetime_1i {
+    height: 38px;
+    font-size: 20px;
+    border: none;
+    margin-left: 42px;
+    background-color: white;
+}
+select#trip_datetime_2i {
+    height: 38px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+select#trip_datetime_3i {
+    height: 38px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+select#trip_datetime_4i {
+    height: 38px;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+.input.datetime.required.trip_datetime {
+    width: 1000px;
+}
+select#trip_datetime_5i {
+    height: 38px;
+    border: none;
+    font-size: 20px;
+    background: white;
+}
+*/
+/* line 1, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 294, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 322, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 350, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 378, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 406, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 434, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 462, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 479, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 507, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 535, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 563, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 591, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 619, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 647, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 675, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 703, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 742, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 768, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#topbar {
+  font-family: 'Open Sans',sans-serif;
+  width: 100%;
+  height: 50px;
+  background-color: #FF9885;
+  color: white;
+}
+
+/* line 9, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 303, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 332, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 361, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 390, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 419, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 448, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 477, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 495, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 524, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 553, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 582, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 611, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 640, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 669, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 698, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 727, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 767, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 794, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#groupool {
+  float: left;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-left: 14px;
+}
+
+/* line 18, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 313, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 343, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 373, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 403, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 433, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 463, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 493, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 512, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 542, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 572, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 602, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 632, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 662, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 692, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 722, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 752, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 793, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 821, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#about {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 24, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 320, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 351, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 382, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 413, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 444, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 475, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 506, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 526, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 557, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 588, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 619, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 650, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 681, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 712, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 743, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 774, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 816, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 845, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#help {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 30, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 327, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 359, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 391, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 423, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 455, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 487, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 519, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 540, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 572, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 604, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 636, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 668, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 700, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 732, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 764, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 796, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 839, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 869, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.clear {
+  clear: both;
+}
+
+/* line 34, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 332, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 365, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 398, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 431, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 464, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 497, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 530, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 552, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 585, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 618, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 651, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 684, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 717, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 750, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 783, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 816, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 860, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 891, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#contact-us {
+  float: right;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+
+/* line 40, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 339, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 373, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 407, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 441, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 475, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 509, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 543, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 566, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 600, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 634, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 668, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 702, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 736, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 770, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 804, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 838, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 883, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 915, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+body {
+  margin: 0px;
+}
+
+/* line 44, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 344, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 379, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 414, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 449, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 484, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 519, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 554, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 578, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 613, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 648, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 683, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 718, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 753, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 788, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 823, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 858, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 904, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 937, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#title-container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 120px;
+  padding-bottom: 36px;
+  line-height: 1.2;
+}
+
+/* line 53, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 354, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 390, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 426, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 462, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 498, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 534, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 570, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 595, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 631, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 667, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 703, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 739, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 775, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 811, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 847, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 883, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 930, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 964, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  letter-spacing: 4px;
+  font-size: 48px;
+  color: #3C62C2;
+  padding-top: 24px;
+}
+
+/* line 64, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 366, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 403, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 440, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 477, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 514, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 551, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 588, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 614, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 651, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 688, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 725, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 762, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 799, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 836, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 873, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 910, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 958, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 993, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#details {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+  color: #A2A2A2;
+  font-size: 18px;
+}
+
+/* line 71, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 374, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 412, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 450, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 488, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 526, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 564, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 602, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 629, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 667, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 705, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 743, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 781, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 819, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 857, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 895, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 933, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 982, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1018, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+#form-container {
+  background-color: #E5E5E5;
+  padding-bottom: 40px;
+}
+
+/* line 76, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 380, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 419, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 458, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 497, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 536, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 575, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 614, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 642, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 681, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 720, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 759, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 798, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 837, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 876, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 915, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 954, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1004, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1041, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-name {
+  font-family: Open Sans,sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+/* line 83, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 388, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 428, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 468, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 508, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 548, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 588, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 628, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 657, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 697, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 737, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 777, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 817, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 857, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 897, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 937, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 977, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1028, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1066, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-name-container {
+  padding-top: 40px;
+  padding-left: 80px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 90, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 396, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 437, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 478, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 519, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 560, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 601, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 642, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 672, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 713, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 754, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 795, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 836, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 877, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 918, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 959, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1000, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1052, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1091, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.inputs {
+  font-size: 20px;
+  width: 40%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+/* line 97, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 404, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 446, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 488, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 530, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 572, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 614, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 656, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 687, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 729, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 771, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 813, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 855, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 897, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 939, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 981, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1023, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1076, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1116, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#trip_name {
+  font-size: 20px;
+  width: 45%;
+  padding: 5px;
+  margin-left: 45px;
+}
+
+/* line 104, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 412, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 455, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 498, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 541, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 584, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 627, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 670, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 702, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 745, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 788, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 831, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 874, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 917, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 960, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1003, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1046, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1100, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1141, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-dest-container {
+  padding-left: 80px;
+  padding-top: 20px;
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 111, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 420, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 464, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 508, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 552, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 596, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 640, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 685, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 718, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 762, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 806, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 850, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 894, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 938, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 982, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1026, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1070, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1125, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1167, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-destination {
+  width: 26%;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 50px;
+  position: absolute;
+  margin-left: 22px;
+}
+
+/* line 120, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 430, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 475, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 520, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 565, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 610, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 655, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 701, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 735, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 780, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 825, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 870, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 915, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 960, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1005, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1050, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1095, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1151, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1194, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+img#car {
+  height: 25px;
+  padding-top: 10px;
+  padding-left: 12px;
+  position: absolute;
+  z-index: 7;
+  margin-left: 20px;
+  left: 25%;
+  top: 35%;
+}
+
+/* line 129, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 440, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 488, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 534, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 580, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 626, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 672, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 719, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 754, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 800, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 846, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 892, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 938, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 984, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1030, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1076, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1122, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1179, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1223, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-time-container {
+  padding-left: 90px;
+  padding-top: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 136, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 448, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 497, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 544, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 591, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 638, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 685, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 733, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 769, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 816, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 863, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 910, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 957, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1004, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1051, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1098, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1145, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1203, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1248, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-time {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 23%;
+  display: inline-block;
+}
+
+/* line 144, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 457, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 507, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 555, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 603, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 651, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 699, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 748, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 785, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 833, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 881, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 929, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 977, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1025, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1073, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1121, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1169, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1228, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1274, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-month {
+  display: inline-block;
+  font-size: 20px;
+  width: 7%;
+  text-align: center;
+}
+
+/* line 151, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 465, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 516, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 565, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 614, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 663, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 712, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 762, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 800, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 849, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 898, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 947, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 996, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1045, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1094, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1143, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1192, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1252, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1299, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+img#clock {
+  height: 25px;
+  position: absolute;
+  margin-top: 6px;
+  left: 37.5%;
+  top: 65%;
+}
+
+/* line 158, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 473, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 527, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 577, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 627, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 677, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 727, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 777, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 816, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 866, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 916, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 966, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1016, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1066, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1116, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1166, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1216, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1277, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1325, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-day {
+  font-size: 20px;
+  width: 7%;
+  text-align: center;
+}
+
+/* line 164, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 480, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 535, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 586, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 637, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 688, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 739, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 790, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 830, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 881, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 932, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 983, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1034, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1085, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1136, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1187, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1238, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1300, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1349, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.input-year {
+  font-size: 20px;
+  width: 7%;
+  text-align: center;
+}
+
+/* line 170, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 487, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 543, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 595, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 647, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 699, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 751, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 803, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 844, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 896, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 948, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1000, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1052, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1104, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1156, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1208, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1260, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1323, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1373, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-comments {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  padding-left: 70px;
+}
+
+/* line 177, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 495, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 552, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 605, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 658, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 711, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 764, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 817, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 859, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 912, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 965, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1018, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1071, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1177, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1230, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1283, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1347, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1398, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.bigger-input {
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* line 182, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 501, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 559, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 613, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 667, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 721, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 775, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 829, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 872, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 926, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 980, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1034, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1088, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1142, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1196, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1250, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1304, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1369, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1421, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-comments-container {
+  padding-top: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*div.input.button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #FF9885;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}*/
+/* line 201, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 521, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 580, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 635, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 690, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 745, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 800, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 855, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 899, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 954, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1009, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1064, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1119, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1174, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1229, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1284, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1339, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1405, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1458, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input.button {
+  width: 150px;
+  height: 60px;
+  background-color: #FF9885;
+  color: white;
+  font-family: sans-serif;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  font-size: 14px;
+  position: relative;
+  left: 45%;
+  display: inline-block;
+}
+
+/* line 218, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 539, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 599, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 655, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 711, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 768, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 824, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 880, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 925, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 981, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1037, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1093, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1149, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1205, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1261, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1317, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1373, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1440, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1494, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.string.required {
+  font-size: 20px;
+  font-family: Open Sans, sans-serif;
+}
+
+/* line 222, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 544, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 605, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 662, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 719, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 777, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 834, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 891, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 937, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 995, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1052, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1109, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1166, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1223, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1280, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1337, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1394, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1462, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1517, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#trip_destination {
+  width: 50%;
+  position: absolute;
+  z-index: 5;
+  margin-left: 55px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* line 233, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 556, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 617, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 675, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 733, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 792, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 849, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 907, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 954, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1013, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1071, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1129, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1187, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1245, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1303, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1361, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1419, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1488, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1544, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.text.optional {
+  font-size: 20px;
+  font-family: sans-serif;
+  dislay: inline-block;
+  padding-left: 70px;
+  margin: 0 auto;
+}
+
+/* line 241, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 565, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 627, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 686, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 745, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 805, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 863, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 922, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 970, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1030, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1089, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1148, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1207, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1266, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1325, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1384, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1443, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1513, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1570, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+textarea#trip_comments {
+  font-size: 20px;
+  margin-left: 50px;
+  border: none;
+  width: 50%;
+  padding-left: 10px;
+  height: 80px;
+}
+
+/* line 249, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 574, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 637, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 697, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 758, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 819, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 878, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 938, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 987, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1048, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1108, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1168, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1228, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1288, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1348, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1408, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1468, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1539, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1597, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.datetime.required {
+  margin-right: 4px;
+  font-size: 20px;
+  font-family: Open Sans, sans-serif;
+}
+
+/* line 253, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 579, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 643, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 705, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 767, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 829, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 889, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 950, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1000, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1063, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1124, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1185, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1246, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1307, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1368, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1429, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1490, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1562, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1621, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#trip_datetime_1i {
+  height: 38px;
+  font-size: 20px;
+  border: none;
+  margin-left: 58px;
+  background-color: white;
+  color: #696868;
+}
+
+/* line 261, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 589, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 654, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 717, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 780, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 843, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 904, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 966, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1017, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1081, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1143, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1205, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1267, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1329, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1391, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1453, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1515, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1588, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1648, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#trip_datetime_2i {
+  height: 38px;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  color: #696868;
+}
+
+/* line 268, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 598, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 664, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 728, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 792, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 856, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 918, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 981, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1033, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1098, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1161, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1224, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1287, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1350, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1413, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1476, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1539, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1613, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1674, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#trip_datetime_3i {
+  height: 38px;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  color: #696868;
+}
+
+/* line 275, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 607, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 674, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 739, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 804, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 869, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 932, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 996, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1049, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1115, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1179, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1243, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1307, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1371, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1435, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1499, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1563, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1638, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1700, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#trip_datetime_4i {
+  height: 38px;
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  color: #696868;
+}
+
+/* line 282, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 616, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 684, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 750, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 816, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 882, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 946, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1011, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1065, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1132, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1197, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1262, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1327, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1392, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1457, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1522, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1587, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1663, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1726, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input.datetime.required.trip_datetime {
+  width: 1000px;
+}
+
+/* line 286, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 621, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 690, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 757, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 824, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 891, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 956, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1022, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1077, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1145, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1211, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1277, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1343, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1409, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1475, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1541, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1607, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1684, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1748, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#trip_datetime_5i {
+  height: 38px;
+  border: none;
+  font-size: 20px;
+  background: white;
+  color: #696868;
+}
+
+/* line 1152, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1220, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1287, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1354, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1421, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1488, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1555, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1622, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1700, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1765, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+a.groupool.link {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 1426, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1494, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1562, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1630, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1709, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1775, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input.string.optional.car_driver_first_name {
+  padding-top: 20px;
+}
+
+/* line 1431, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1500, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1568, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1637, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1717, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1784, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.string.optional {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+/* line 1436, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1506, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1575, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1645, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1726, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1794, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#car_driver_first_name {
+  width: 200px;
+  height: 24px;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+/* line 1443, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1514, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1584, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1655, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1737, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1806, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input.string.optional.car_driver_last_name {
+  margin-top: 20px;
+}
+
+/* line 1448, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1520, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1590, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1662, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1745, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1815, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#car_driver_last_name {
+  width: 200px;
+  font-size: 20px;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+/* line 1455, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1528, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1599, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1672, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1756, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1827, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input.email.optional.car_driver_email {
+  padding-top: 20px;
+}
+
+/* line 1460, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1534, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1605, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1679, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1764, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1836, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.email.optional {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+/* line 1465, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1540, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1612, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1687, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1773, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1846, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#car_driver_email {
+  font-size: 20px;
+  width: 400px;
+  margin-left: 110px;
+}
+
+/* line 1472, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1548, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1620, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1696, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1783, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1857, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.integer.required {
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* line 1478, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1555, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1628, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1705, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1793, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1868, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#car_number_of_seats {
+  font-size: 20px;
+  width: 400px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+/* line 1485, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1563, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1637, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1715, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1804, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1880, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input.integer.required.car_number_of_seats {
+  margin-top: 20px;
+}
+
+/* line 1568, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1642, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1721, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1811, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1888, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-origin-container {
+  padding-top: 20px;
+}
+
+/* line 1572, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1647, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1727, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1818, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1896, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#car_origin {
+  width: 300px;
+  margin-left: 20px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+/* line 1653, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1736, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1828, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1907, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+div#inputs-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 1658, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1742, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1835, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1915, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input.datetime.optional.car_depart_datetime {
+  font-family: Open Sans, sans-serif;
+  margin-top: 20px;
+}
+
+/* line 1663, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1748, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1842, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1923, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#car_depart_datetime_1i {
+  background-color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* line 1669, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1755, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1850, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1932, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.datetime.optional {
+  font-size: 20px;
+}
+
+/* line 1673, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1760, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1856, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1939, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#car_depart_datetime_2i {
+  font-size: 20px;
+  background-color: white;
+}
+
+/* line 1678, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1766, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1863, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1947, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#car_depart_datetime_3i {
+  font-size: 20px;
+  background-color: white;
+}
+
+/* line 1683, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1772, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1870, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1955, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#car_depart_datetime_4i {
+  font-size: 20px;
+  background-color: white;
+}
+
+/* line 1688, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1778, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1877, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1963, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#car_depart_datetime_5i {
+  font-size: 20px;
+  background-color: white;
+}
+
+/* line 1693, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1784, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1884, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1971, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#driver_first_name {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 74px;
+}
+
+/* line 1699, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1792, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1893, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1981, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#driver_last_name {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 78px;
+}
+
+/* line 1704, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1799, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1901, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1990, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#driver_email {
+  font-size: 20px;
+  margin-left: 118px;
+}
+
+/* line 1709, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1805, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1908, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 1998, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.input-driver-container {
+  font-size: 20px;
+  font-family: Open Sans, sans-serif;
+  padding-top: 10px;
+}
+
+/* line 1811, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1915, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2006, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+select#car_depart_datetime_1i {
+  margin-left: 80px;
+}
+
+/* line 1815, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1920, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2012, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+div#new-user-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 1822, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1926, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2019, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#user_first_name {
+  width: 500px;
+  height: 20px;
+  margin-left: 6px;
+  margin-top: 50px;
+}
+
+/* line 1829, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1934, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2028, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#user_last_name {
+  height: 20px;
+  width: 500px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/* line 1836, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1942, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2037, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+label.email.required {
+  font-size: 20px;
+  font-family: Open Sans, sans-serif;
+}
+
+/* line 1841, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/new_trip.css.scss */
+/* line 1948, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2044, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#user_email {
+  width: 500px;
+  margin-left: 49px;
+  height: 20px;
+  margin-top: 20px;
+}
+
+/* line 1954, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2052, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+a.go_back_from_deletecar {
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #FF9885;
+  color: white;
+  font-family: Open Sans, sans-serif;
+  text-decoration: none;
+  top: 55%;
+  left: 40%;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+/* line 1971, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2070, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+input#email {
+  width: 400px;
+}
+
+/* line 1975, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2075, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.email_container {
+  width: 40px;
+  float: left;
+  margin-right: 15px;
+  font-family: Open Sans, sans-serif;
+}
+
+/* line 1982, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+/* line 2083, /Users/kellyhong/rails decal/rails-proj2/app/assets/stylesheets/car.css.scss */
+.email_box_delete {
+  float: left;
+}

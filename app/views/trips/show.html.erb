@@ -47,7 +47,6 @@
 	<% if avail_seats > 0 %>
 	<div class="choose-car-button"> <%= link_to "choose car", new_user_path(:car_id => car.id, :trip_id => @trip.id) %></div>
 	<%end%>
-	<!-- <div class="delete-car-button"> <%= link_to "Delete car", trip_car_path(@trip.id, car.id), method: :delete %></div> -->
 	<div class="delete-car-button"> 
 	  <%= link_to "delete car", car_delete_path(:trip_id => @trip.id, :car_id => car.id, :class => "deleting-car")%> 
 	</div>
@@ -114,9 +113,7 @@
     </div>
     <% if @cars.length > 0 %>
     <div id="carousel-container">
-      <div id="prev">
-	<%=image_tag("arrowleft.png", class: "img-scaled")%>
-      </div>
+
       <div id="carousel-wrapper">
 	<div id="carousel">
 	  <% @cars.each do |car| %>
@@ -125,7 +122,6 @@
 	  <div class="carousel-item" data-id = "<%=car.id%>">
 	    <div class="name"><%= driver.first_name %> <%= driver.last_name.possessive %> car</div>
 	    <div class="car-icon-container">
-	      <!-- 						<img class="car-icon" src="assets/img/dashcar.png"/> -->
 	      <%=image_tag("dashcar.png", class: "car-icon")%>
 	    </div>
 	    <div class="seats-text">
@@ -141,10 +137,11 @@
 	  <div class="clear"></div>													
 	</div>
       </div>
-
+      <div id="prev">
+		<%=image_tag("arrowleft.png", class: "img-scaled")%>
+      </div>
       <div id="next">
-	<!-- 			    <img class="img-scaled-next" src="assets/img/arrowleft.png" /> -->
-	<%=image_tag("arrowleft.png", class: "img-scaled-next")%>
+		<%=image_tag("arrowleft.png", class: "img-scaled-next")%>
       </div>
       <% else %>	
       <br>
