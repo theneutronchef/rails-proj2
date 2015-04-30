@@ -4,7 +4,7 @@ $(document).ready(function() {
       if (marginLeftVal == -6375) {
         return false;
       } else {
-        $('#carousel').css('margin-left', marginLeftVal - 1275)
+        $('#carousel').css('margin-left', marginLeftVal - 1025)
       }
     });
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
       if (marginLeftVal == 0) {
         return false;
       } else {
-        $('#carousel').css('margin-left', marginLeftVal + 1275);
+        $('#carousel').css('margin-left', marginLeftVal + 1025);
       }
     });
 
