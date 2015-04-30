@@ -1,5 +1,5 @@
-# GROUPool
-[Demo Link](http://www.google.com)
+# GrouPOOL
+[Demo Link](http://groupool.herokuapp.com/)
 
 ## Team Members
 - Kelly Hong
@@ -23,16 +23,16 @@ An application to coordinate carpools for trips. Users can create trips, share t
 ####Trip
 - has name, cars, destination, datetime of event, comments, hash, relations
 
-####Relation*
+####Relation
 - belongs to Users, Cars, Trips
 - maintains relationships between all 3 models
 
 ## Features
 - Any user can create a trip
-- Trips are identified and shared by a unique hash
+- Trips are identified by a unique hash, which is shared to other users
 - Any user can create a car, but he/she has to be the driver
 - Any user can join a car if he/she is not already a driver OR is not already in another car
-- No login feature, but users are identified by their name and email (e.g. to delete oneself from a trip, you need to submit your email, which is a unique identifier)
+- No login feature, but users are authenticated using their name and email (e.g. to delete oneself from a trip, you have to submit your email, which is a unique identifier)
 
 ## Division of Labor
 - Kelly: Pretty much all of frontend 
