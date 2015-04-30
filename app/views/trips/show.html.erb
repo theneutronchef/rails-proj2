@@ -38,7 +38,7 @@
 	    <% if p != driver %>
 	    <li><%= p.first_name %> 
 	      <%= p.last_name %>
-	      <%= link_to "X", user_delete_path(:user_id => p.id, :car_id => car.id, :trip_id => @trip.id)%>
+	      <%= link_to "X", user_delete_path(:user_id => p.id, :car_id => car.id, :trip_id => @trip.id), method: :get %>
 	    </li>
 	    <% end %>
 	    <% end %>
