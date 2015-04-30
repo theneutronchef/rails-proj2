@@ -28,8 +28,9 @@
 	     depart_time = car.depart_datetime.strftime("%I:%M%p") %>
 	  <% if depart_date != trip_date %>
 	  <%= depart_date %> <%= depart_time %> 
-	  <% end %>
+	  <% else %>
 	  <%= depart_time %>
+	  <% end %>
 	</div>
 	<div id="people-in-car"><b>Passengers:</b>
 	  <ul>
