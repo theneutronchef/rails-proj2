@@ -16,10 +16,15 @@ class CarsController < ApplicationController
       @user.first_name = p[:driver_first_name]
       @user.last_name = p[:driver_last_name]
       @user.email = p[:driver_email]
-      @user.save
-      @driver = @user
+      if not User.find_by(email: p[:driver_email])
+        @user.save
+      else
+        redirect_to new_trip_car_path(:warning => true)
+        return 0
+      end
     end
-
+    
+    @driver = @user
     @relation = Relation.find_by(trip_id: @trip.id, user_id: @user.id)
     if not @relation
       @car = Car.new(car_params) 

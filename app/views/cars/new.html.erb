@@ -14,6 +14,10 @@
 					<div id="details">Add your car to trip <%= @trip.hashid %>.</div>
 				</div>
 				<div id="form-container">
+					<% if params[:warning] %>
+						<br>
+						<div style="text-align: center"> Email has been taken. Please try again. </div>
+					<% end %>
 					<%= simple_form_for @car, :url => trip_cars_path(@trip, @car) do |c| %>
 					<div id="inputs-container">
 						<div class="inputs-name-container">
