@@ -1,30 +1,40 @@
-GrouPool
+# GROUPool
+[Demo Link](http://www.google.com)
 
-== README
+## Team Members
+- Kelly Hong
+- Gabriel Tan
+- Japheth Wong
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Idea 
 
-Things you may want to cover:
+An application to coordinate carpools for trips. Users can create trips, share the trip with friends and have other users add cars to the trip OR join an existing car in the trip
 
-* Ruby version
+## Models and Description
 
-* System dependencies
+####User
+- has name, email
+- belongs to cars (can belong to multiple cars from different trips, but only one car per trip)
 
-* Configuration
+####Car
+- has driver(user), passengers(users), number of seats, origin, datetime of departure
+- belongs to only one trip 
 
-* Database creation
+####Trip
+- has name, cars, destination, datetime of event, comments, hash
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+####Relation
+- has User, Car, Trip
+- maintains relationships between all 3 models
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Features
+- Any user can create a trip
+- Any user can create a car, but he/she has to be the driver
+- Any user can join a car
+- No login feature, but users are identified by their name and email (e.g. to delete oneself from a trip, you need to submit your email, which is a unique identifier)
+
+## Division of Labor
+Kelly: In charge of frontend
+Gabriel: Created basic views, models, and controllers
+Japheth: Backend logic for Trip Dashboard
