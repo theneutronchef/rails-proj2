@@ -25,8 +25,6 @@ class CarsController < ApplicationController
       @car = Car.new(car_params) 
       @relation = Relation.new
       if @car.save
-        @driver = User.find_by(first_name: p[:driver_first_name], 
-                               last_name: p[:driver_last_name])
         @relation.trip_id = @trip.id
         @relation.car_id = @car.id
         @relation.user_id = @driver.id
